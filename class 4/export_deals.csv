@@ -1,0 +1,733 @@
+,from_name,from_ticker,to_name,to_ticker,deal_type,subtype,amount_bn,amount_approx,scale_quantity,scale_unit,scale_approx,tenor_years,tenor_start,tenor_end,tenor_text,confidence_level,confidence_detail,source,from_group,to_group
+0,General Catalyst; Spark Capital; Addition; Greylock; Atlassian Ventures; Microsoft; NVIDIA; Workday Ventures; PSP Growth; A.Capital; SV Angel; Frontiers Capital; others,,Adept,,INVESTOR,Series B equity investment,0.35,False,,,,,,,,OFFICIAL,Adept press release (adept.ai),Adept,Other,Foundation Labs
+1,Amazon,,Adept,,CONTENT_LICENSING,"agent technology, multimodal models, datasets",,,,,,,,,,REPORTED,CNBC 2024-06-28,Adept,Hyperscalers,Foundation Labs
+2,Adept,,Oracle,,CUSTOMER,cloud infrastructure GPU access,,,,,,,,,,OFFICIAL,Oracle PR 2024-06-11 via PR Newswire,Adept,Foundation Labs,Hyperscalers
+3,AMD,AMD,Silo AI,,MNA,Acquisition,0.665,False,,,,,,,,OFFICIAL,AMD press release 2024-07-10,Advanced Micro Devices,Semis & Systems,Other
+4,AMD,AMD,ZT Systems,,MNA,Acquisition,4.9,False,,,,,,,,OFFICIAL,AMD press release 2024-08-19,Advanced Micro Devices,Semis & Systems,Other
+5,AMD,AMD,Sanmina,,SALE_LEASEBACK,Asset sale / divestiture,3.0,False,,,,,,,,OFFICIAL,AMD press release 2025-05-19,Advanced Micro Devices,Semis & Systems,Other
+6,AMD,AMD,Vultr,,INVESTOR,Growth financing,,,,,,,,,,REPORTED,"Financial Times Dec 18, 2024",Advanced Micro Devices,Semis & Systems,Other
+7,AMD,AMD,Vultr,,CUSTOMER,GPU supply / Compute capacity,,,2000,AMD Instinct MI300X GPUs,True,,,,,OFFICIAL,Vultr press release 2025-02-18,Advanced Micro Devices,Semis & Systems,Other
+8,AMD,AMD,Microsoft,MSFT,CUSTOMER,Compute capacity / GPU supply,,,,,,1,2024-06-04,,2024 onward,OFFICIAL,"AMD blog Jun 4, 2024; Microsoft docs Oct 18, 2024",Advanced Micro Devices,Semis & Systems,Hyperscalers
+9,AMD,AMD,Oracle,ORCL,CUSTOMER,GPU purchase / Cluster build,2.0,True,30000,MI355X GPUs,False,,,,,REPORTED,"Oracle Q2 FY2025 earnings call Mar 10, 2025",Advanced Micro Devices,Semis & Systems,Hyperscalers
+10,AMD,AMD,Oracle,ORCL,CUSTOMER,GPU purchase / expanded deployment,,,50000,MI450 GPUs,False,1,2026-07-01,,starting Q3 2026,REPORTED,"Reuters Oct 14, 2025",Advanced Micro Devices,Semis & Systems,Hyperscalers
+11,AMD,AMD,OpenAI,,CUSTOMER,GPU supply,30.0,True,6000000,watts,False,3,2026-07-01,,multi-year; phased shipments from 2H 2026,REPORTED,"Reuters Oct 6, 2025",Advanced Micro Devices,Semis & Systems,Hyperscalers
+12,AMD,AMD,IBM,IBM,CUSTOMER,Compute capacity / Cloud service,,,,,,1,2025-01-01,2025-06-30,target 1H 2025 GA,OFFICIAL,"IBM press release Nov 18, 2024",Advanced Micro Devices,Semis & Systems,Hyperscalers
+13,AMD,AMD,Dell Technologies,DELL,CUSTOMER,OEM / GPU supply,,,,,,1,2024-10-01,,shipping Q4 2024 onward,OFFICIAL,"Dell press release Oct 10, 2024",Advanced Micro Devices,Semis & Systems,Semis & Systems
+14,AMD,AMD,Meta,META,CUSTOMER,Compute capacity / GPU supply,,,,,,,,,,OFFICIAL,"AMD press release Oct 10, 2024",Advanced Micro Devices,Semis & Systems,Hyperscalers
+15,Aligned Data Centers,,ODATA,,MNA,acquisition,1.4,False,,,,,,,,REPORTED,globenewswire 2023-05-22,Aligned Data Centers,Data Centers,Other
+16,Aligned Data Centers,,Sumitomo Mitsui Banking Corp.,,SECURED_DEBT,syndicated credit for acquisition financing,1.225,True,,,,,,,,REPORTED,lexlatin 2023-12-12,Aligned Data Centers,Data Centers,Other
+17,Aligned Data Centers,,Omega Energia,,ENERGY_PPA,"minority stake in wind farm, renewable equity",,,212,MW,False,,,,,REPORTED,globenewswire 2023-05-22,Aligned Data Centers,Data Centers,Other
+18,Aligned Data Centers,,Macquarie,,INVESTOR,primary equity capital raise,5.0,True,,,,,,,,REPORTED,datacenterdynamics 2025-01-15,Aligned Data Centers,Data Centers,Capital Providers
+19,Aligned Data Centers,,Lambda,,LEASE,data center lease for AI compute capacity,,,,,,,2025-05-07,,Lease terms not publicly disclosed,REPORTED,globenewswire 2025-05-07,Aligned Data Centers,Data Centers,AI Clouds & Miners
+20,Amazon,,NVIDIA,NVDA,CUSTOMER,GB200 NVL72 GPUs,,,20736,B200 GPUs,False,,,,,OFFICIAL,Nvidia News 2024-03-18,Amazon,Hyperscalers,Semis & Systems
+21,Amazon,,Anthropic,,CUSTOMER,Compute capacity with AWS Trainium and Inferentia chips,,,,,,,,,Long-term strategic collaboration,OFFICIAL,Amazon About 2024-11-22,Amazon,Hyperscalers,Foundation Labs
+22,Amazon,,NVIDIA,NVDA,CUSTOMER,Compute capacity (NVIDIA DGX Cloud hosting),,,,,,,,,,OFFICIAL,Nvidia News 2024-03-18,Amazon,Hyperscalers,Semis & Systems
+23,Amazon,,Newfound Properties,,LEASE,Data center lease in Navi Mumbai,0.00912,True,451000,sq ft,False,15,,,,REPORTED,DataCenterDynamics 2023-05-25,Amazon,Hyperscalers,Other
+24,Amazon,,ENGIE,,ENERGY_PPA,Corporate PPA at Moray West offshore wind (UK),,,473,MW,False,,,,starts when site operational,OFFICIAL,Engie 2024-01-30,Amazon,Hyperscalers,Other
+25,Amazon,,Iberdrola,,ENERGY_PPA,Renewable energy PPAs in Spain and Portugal,,,476,MW,False,,,,Multi-year PPAs,OFFICIAL,Iberdrola 2025-02-03,Amazon,Hyperscalers,Other
+26,Amazon,,EDP Renewables North America,,ENERGY_PPA,15-year PPA for Ragsdale Solar Park,,,100,MW,False,15,,,,OFFICIAL,DataCenterDynamics 2025-02-24,Amazon,Hyperscalers,Other
+27,Amazon,,ERG Group,,ENERGY_PPA,Long-term PPA for Corlacky wind farm,,,47.3,MW,False,,,,Long-term PPA,OFFICIAL,DataCenterDynamics 2025-02-05,Amazon,Hyperscalers,Other
+28,Amazon,,OX2,,ENERGY_PPA,Long-term PPAs for Rajamäenkylä and Honkakangas wind power in Finland,,,472,MW,False,,,,Long-term PPAs,OFFICIAL,DataCenterDynamics 2025-04-13,Amazon,Hyperscalers,Other
+29,Amazon,,Talen Energy,,ENERGY_PPA,Expanded nuclear PPA for AWS data centers,,,1920,MW,False,18,2024-01-01,2042-12-31,,OFFICIAL,Talen Energy 2025-06-11,Amazon,Hyperscalers,Other
+30,Amazon,,Anthropic,,INVESTOR,Convertible notes minority stake,4.0,False,,,,,,,,OFFICIAL,Amazon About 2024-03-27,Amazon,Hyperscalers,Foundation Labs
+31,Amazon,,The New York Times,,CONTENT_LICENSING,Multi-year licensing of content for Alexa and AI training,0.02,True,,,,,,,Multi-year,REPORTED,Engadget 2025-05-29,Amazon,Hyperscalers,Other
+32,Amazon,,Talen Energy,,REPURCHASE,Repurchase backstop for Cumulus data center campus,0.65,False,960,MW,False,,,,,OFFICIAL,SEC Filing 2024-03-04,Amazon,Hyperscalers,Other
+33,U.S. Department of Commerce CHIPS Program Office,,Amkor Technology,,INVESTOR,government grant and loans,0.6,False,,,,,,,,REPORTED,reuters.com,Amkor Technology,Other,Semis & Systems
+34,TSMC,,Amkor Technology,,INVESTOR,strategic MOU for turnkey advanced packaging and test services,,,,,,,2024-10-01,,announced Oct 2024,REPORTED,computerworld.com,Amkor Technology,Semis & Systems,Semis & Systems
+35,Apple,,Amkor Technology,,CUSTOMER,advanced packaging customer,,,,,,,,,,REPORTED,reuters.com,Amkor Technology,Hyperscalers,Semis & Systems
+36,NVIDIA,,Amkor Technology,,CUSTOMER,advanced packaging customer for AI GPUs,,,,,,,,,,REPORTED,tomshardware.com,Amkor Technology,Semis & Systems,Semis & Systems
+37,Japanese lender(s),,Amkor Technology,,SECURED_DEBT,Japanese term loan,0.114,True,,,,5,2024-12-01,2029-12-01,due December 2029,OFFICIAL,SEC 10-K Amkor Technology December 2024,Amkor Technology,Other,Semis & Systems
+38,Korean lender(s),,Amkor Technology,,SECURED_DEBT,Korean term loan,0.059,True,,,,3,2024-05-01,2027-05-01,due May 2027,OFFICIAL,SEC 10-K Amkor Technology 2024,Amkor Technology,Other,Semis & Systems
+39,Amazon,,Anthropic,,INVESTOR,investment equity,4.0,False,,,,,2024-03-27,,Equity (no fixed term),OFFICIAL,aboutamazon.com press release,Anthropic,Hyperscalers,Foundation Labs
+40,Amazon,,Anthropic,,PLATFORM_INTEGRATION,compute capacity / cloud provider,,,,,,,2023-09-25,,"Primary cloud provider, strategic / long-term commitment",OFFICIAL,anthropic.com press release,Anthropic,Hyperscalers,Foundation Labs
+41,Google,,Anthropic,,INVESTOR,investment equity / cloud contract,2.0,False,,,,,2023-10-27,,Staged investment commitment,REPORTED,cnbc.com reported,Anthropic,Hyperscalers,Foundation Labs
+42,Google,,Anthropic,,INVESTOR,investment equity (follow-on),1.0,True,,,,,2025-01-22,,Staged / additional equity,REPORTED,cnbc.com reported,Anthropic,Hyperscalers,Foundation Labs
+43,Lightspeed Venture Partners,,Anthropic,,INVESTOR,Series E investment equity,3.5,False,,,,,2025-03-03,,Equity (no fixed term),OFFICIAL,orrick.com press release,Anthropic,Other,Foundation Labs
+44,Databricks,,Anthropic,,REVENUE_SHARE,platform distribution (strategic partnership),0.1,True,,,,5,2025-03-26,2030-03-25,Five years,OFFICIAL,databricks.com press release + market reporting,Anthropic,Other,Foundation Labs
+45,Anthropic,,Palantir Technologies,,PLATFORM_INTEGRATION,compute capacity / gov deployment,,,,,,,2024-11-07,,Not specified,OFFICIAL,businesswire press release,Anthropic,Foundation Labs,Other
+46,Anthropic,,SK Telecom,,INVESTOR,investment equity / telco-custom model partnership,0.1,False,,,,,2023-08-15,,Commercial partnership,OFFICIAL,anthropic.com press release,Anthropic,Foundation Labs,Other
+47,Morgan Stanley,,Anthropic,,SECURED_DEBT,collateral loan / revolving credit facility,2.5,False,,,,5,2025-05-16,2030-05-15,5 years revolving credit,REPORTED,"cnbc.com reported; banks consortium includes Morgan Stanley, Barclays, Citibank, Goldman Sachs, JPMorgan, RBC, MUFG",Anthropic,Capital Providers,Foundation Labs
+48,Apollo,,Intel,INTC,INVESTOR,Investment equity,11.0,True,49,percent stake,False,,2024-06-15,,ongoing ownership / share of JV outputs,OFFICIAL,SEC filing,Apollo,Capital Providers,Semis & Systems
+49,Apollo,,TotalEnergies,TTE,INVESTOR,PPA power / renewable asset equity,0.8,False,2,GW Texas solar + BESS portfolio,False,,2024-12-04,,long-term asset ownership,OFFICIAL,Apollo and TotalEnergies press releases,Apollo,Capital Providers,Other
+50,Apollo,,Argo Infrastructure Partners,,MNA,Investment equity / acquisition,6.0,True,,,,,,2025-06-30,expected to close Q2 2025,OFFICIAL,Apollo press release,Apollo,Capital Providers,Other
+51,Apollo,,STACK Infrastructure,,MNA,Data center acquisition (colocation carve-out),,,7,data centers,False,,,,subject to closing conditions / regulatory approvals,REPORTED,marketwirenews.com,Apollo,Capital Providers,Other
+52,Apollo,,Stream Data Centers,,INVESTOR,Investment equity,,,4,GW development pipeline,False,,,2025-12-31,expected closing in 2025,OFFICIAL,Apollo press release,Apollo,Capital Providers,Other
+53,Apollo,,Meta,META,VENDOR_FINANCING,Vendor financing / project financing,35.0,True,,,,,,,in talks,REPORTED,Reuters,Apollo,Capital Providers,Hyperscalers
+54,Apple,,Google,,CUSTOMER,Compute capacity TPU chips,,,2048,TPUv5p,False,,,,,REPORTED,Reuters,Apple,Hyperscalers,Hyperscalers
+55,Apple,,Google,,CUSTOMER,Compute capacity TPU chips,,,8192,TPUv4,False,,,,,REPORTED,Reuters,Apple,Hyperscalers,Hyperscalers
+56,Apple,,ib vogt,,ENERGY_PPA,Solar PPA,,,105,MWac,False,,2024-04-18,,Long-term PPA (pay-as-produced),OFFICIAL,ib vogt press release,Apple,Hyperscalers,Other
+57,Apple,,Econergy Renewable Energy,,ENERGY_PPA,Solar vPPA,,,52,MW,False,19,,2025-10-15,19 years (vPPA),REPORTED,PV magazine,Apple,Hyperscalers,Other
+58,Apple,,European Energy,,ENERGY_PPA,Solar PPA,,,110,MW,False,,2025-10-14,,Long-term,OFFICIAL,Apple press release,Apple,Hyperscalers,Other
+59,Apple,,Nala Renewables,,ENERGY_PPA,Wind PPA,,,99,MW,False,,2025-10-14,,Long-term,OFFICIAL,Apple press release,Apple,Hyperscalers,Other
+60,Apple,,HELLENiQ ENERGY,,ENERGY_PPA,Solar PPA,,,110,MW,False,,2025-10-14,,Long-term,OFFICIAL,Apple press release,Apple,Hyperscalers,Other
+61,Apple,,NVIDIA,,CUSTOMER,HGX H100/B100 GPU servers,4.75,True,,,,2,2023-01-01,2024-12-31,2023–2024 purchase cycle,ANALYST,Analyst report,Apple,Hyperscalers,Semis & Systems
+62,Apple,,OpenAI,,REVENUE_SHARE,ChatGPT integration,,,,,,,,,,REPORTED,9to5mac,Apple,Hyperscalers,Hyperscalers
+63,Apple,,Google,,REVENUE_SHARE,Gemini chatbot monetization,,,,,,,,,,REPORTED,MacRumors,Apple,Hyperscalers,Hyperscalers
+64,Apple,,Condé Nast,,CONTENT_LICENSING,News archives AI training,0.05,False,,,,,2023-12-22,,Multi‑year (proposed),REPORTED,MacRumors,Apple,Hyperscalers,Other
+65,Apple,,NBC News,,CONTENT_LICENSING,News archives AI training,0.05,False,,,,,2023-12-22,,Multi‑year (proposed),REPORTED,MacRumors,Apple,Hyperscalers,Other
+66,Apple,,IAC,,CONTENT_LICENSING,News archives AI training,0.05,False,,,,,2023-12-22,,Multi‑year (proposed),REPORTED,MacRumors,Apple,Hyperscalers,Other
+67,Apple,,Alibaba,,CUSTOMER,AI partnership for iPhones in China,,,,,,,,,,OFFICIAL,TechCrunch,Apple,Hyperscalers,Other
+68,Apple,,Baidu,,CUSTOMER,Compute capacity talks for Apple Intelligence,,,,,,,,,,REPORTED,9to5mac,Apple,Hyperscalers,Other
+69,Apple,,OpenAI,,INVESTOR,Investment talks dropped,,,,,,,,,,REPORTED,MacRumors,Apple,Hyperscalers,Hyperscalers
+70,Applied Digital,,CoreWeave,,LEASE,AI/HPC infrastructure data center lease,7.0,True,250,MW,False,15,,,~15 years,OFFICIAL,Applied Digital press release,Applied Digital,AI Clouds & Miners,AI Clouds & Miners
+71,Applied Digital,,TerraForm Power,,ENERGY_PPA,wind power supply,,,200,MW,False,,,,Long-term retail electric agreement,REPORTED,datacenterdynamics.com article,Applied Digital,AI Clouds & Miners,Other
+72,Macquarie,,Applied Digital,,INVESTOR,equity strategic investment / PIPE,5.0,False,,,,2,2025-01-14,,"multi-tranche, ROFR window 30 months",REPORTED,Reuters article,Applied Digital,Capital Providers,AI Clouds & Miners
+73,NVIDIA,,Applied Digital,,INVESTOR,private placement equity,0.16,True,,,,,2024-09-05,2024-09-09,Equity issuance no fixed term,OFFICIAL,Applied Digital SEC filing,Applied Digital,Semis & Systems,AI Clouds & Miners
+74,Supermicro,,Applied Digital,,VENDOR_FINANCING,GPU / server supply (vendor supply),,,6144,GPUs,False,,,,Ongoing supply / deployment,OFFICIAL,Applied Digital SEC filings,Applied Digital,Semis & Systems,AI Clouds & Miners
+75,Hewlett Packard Enterprise,,Applied Digital,,VENDOR_FINANCING,GPU / server supply (vendor supply),,,6144,GPUs,False,,,,Ongoing supply / deployment,OFFICIAL,Applied Digital SEC filings,Applied Digital,Semis & Systems,AI Clouds & Miners
+76,Dell Technologies,,Applied Digital,,VENDOR_FINANCING,GPU / server supply (vendor supply),,,6144,GPUs,False,,,,Ongoing supply / deployment,OFFICIAL,Applied Digital SEC filings,Applied Digital,Semis & Systems,AI Clouds & Miners
+77,"CIM APLD Lender Holdings, LLC",,Applied Digital,,SECURED_DEBT,collateralized promissory note project financing,0.125,False,,,,,2024-06-07,,"multi tranche, repay 2024",OFFICIAL,Applied Digital SEC filing,Applied Digital,Other,AI Clouds & Miners
+78,B. Riley Commercial Capital,,Applied Digital,,SECURED_DEBT,term loan,0.05,False,,,,,2023-05-23,,Term loan agreement,OFFICIAL,Applied Digital SEC filing,Applied Digital,Other,AI Clouds & Miners
+79,AI Bridge Funding LLC,,Applied Digital,,SECURED_DEBT,unsecured bridge loan,0.02,False,,,,2,2024-01-30,2026-01-30,unsecured bridge loan,OFFICIAL,Applied Digital SEC filing,Applied Digital,Other,AI Clouds & Miners
+80,Cornerstone Bank,,Applied Digital,,SECURED_DEBT,secured term loan collateral,0.016,False,,,,5,2024-02-28,2029-03-01,Term loan maturity,OFFICIAL,Applied Digital SEC filing,Applied Digital,Other,AI Clouds & Miners
+81,Mara Garden City LLC,,Applied Digital,,SALE_LEASEBACK,asset sale of Garden City data center,0.0873,True,,,,,,,One-time asset sale,REPORTED,globenewswire.com press release,Applied Digital,Other,AI Clouds & Miners
+82,Broadcom,AVGO,Arista Networks,ANET,MNA,VeloCloud SD-WAN business acquisition,0.3,False,,,,,,,,OFFICIAL,Arista 10-Q report,Arista Networks,Semis & Systems,Semis & Systems
+83,NVIDIA,NVDA,Arista Networks,ANET,PLATFORM_INTEGRATION,AI networking agent on BlueField-3 SuperNIC,,,,,,,,,,COMPANY,Network World article 2024-05-29,Arista Networks,Semis & Systems,Semis & Systems
+84,VAST Data,,Arista Networks,ANET,PLATFORM_INTEGRATION,Switch certification and AI infrastructure security/management integration,,,,,,,,,,COMPANY,Network World article 2024-05-29,Arista Networks,Other,Semis & Systems
+85,Meta,META,Arista Networks,ANET,PLATFORM_INTEGRATION,Co-development of Etherlink7700 AI networking platform,,,,,,,2024-10-01,,Oct 2024 OCP launch,COMPANY,Investing.com earnings call transcript Oct 2024,Arista Networks,Hyperscalers,Semis & Systems
+86,Arista Board,,Arista Networks,ANET,REPURCHASE,Stock repurchase program authorization,1.5,False,,,,,2025-05-06,,Program period subject to board/schedule,OFFICIAL,Arista Press Release 2025-05-06,Arista Networks,Other,Semis & Systems
+87,Microsoft,MSFT,Arista Networks,ANET,CUSTOMER,AI networking switches supply,,,,,,3,2023-01-01,2025-12-31,2023–2025 multi-year relationship,COMPANY,Arista earnings call 2023–2025,Arista Networks,Hyperscalers,Semis & Systems
+88,ASE Technology,,AMD,AMD,CUSTOMER,CPU/GPU purchase & evaluation,,,,,,,,,,OFFICIAL,AMD case study / blog (https://www.amd.com/en/resources/case-studies/advanced-semiconductor-engineering.html),ASE Technology,Semis & Systems,Semis & Systems
+89,ASE Technology,,NVIDIA,NVDA,OTHER,Investment equity / potential U.S. operations support,,,,,,,,,,REPORTED,Reuters 2025-04-30 (https://www.reuters.com/world/asia-pacific/taiwans-ase-evaluates-how-it-will-support-nvidias-500-bln-us-plan-2025-04-30/),ASE Technology,Semis & Systems,Semis & Systems
+90,ASE Technology,,TSMC,,OTHER,Advanced packaging supply / capacity agreement (CoWoS / CoW front-end outsourcing),,,,,,2,2024-10-01,2025-12-31,Oct 2024 – 2025,REPORTED,Digitimes 2024-10-25 (https://www.digitimes.com/news/a20241025VL210/cowos-demand-packaging-2025-capacity.html),ASE Technology,Semis & Systems,Semis & Systems
+91,ASE Technology,,NVIDIA,NVDA,CUSTOMER,Packaging services,,,,,,27,,,~27 years,REPORTED,Reuters 2025-02-13 (https://www.reuters.com/technology/taiwans-ase-sees-2025-advanced-packaging-testing-revenue-more-than-doubling-16-2025-02-13/),ASE Technology,Semis & Systems,Semis & Systems
+92,ASE Technology,,TSMC,,OTHER,Technology collaboration / industry alliance (Silicon Photonics Industry Alliance),,,,,,,2024-09-01,,Started Sep 2024,OFFICIAL,Taiwan AI office 2024-09 (https://ai.taiwan.gov.tw/news/taiwan-to-focus-on-silicon-photonics-build-new-economic-shield/),ASE Technology,Semis & Systems,Semis & Systems
+93,ASML,,Mistral,,INVESTOR,equity,1.3,False,,,,,2025-09-09,,Equity stake / ongoing strategic collaboration,OFFICIAL,ASML press release 2025-09-09,ASML,Semis & Systems,Foundation Labs
+94,ASML,,imec,,OTHER,Strategic partnership (R&D infrastructure / compute & pilot-line capability),,,,,,5,2025-03-11,2030-03-11,5 years,OFFICIAL,ASML press release 2025-03-11,ASML,Semis & Systems,Other
+95,ASML,,Unnamed Taiwan energy supplier,,ENERGY_PPA,corporate power purchase agreement,,,,,,5,2024-01-01,2029-01-01,5 years (CPPA),OFFICIAL,ASML SEC filing 2023 disclosed / operational 2024,ASML,Semis & Systems,Other
+96,ASML,,DeepTechXL,,INVESTOR,equity (venture / strategic fund participation),0.11,False,,,,,2024-03-14,,Fund life (multi-year),REPORTED,tech.eu 2024-03-14,ASML,Semis & Systems,Other
+97,Bitfarms,,ANDE,,ENERGY_PPA,hydropower PPA amendment,,,100,MW,False,,,,long-term amendment to existing PPA,OFFICIAL,investor.bitfarms.com press release,Bitfarms,AI Clouds & Miners,Other
+98,Bitfarms,,NVIDIA,NVDA,CUSTOMER,GPU purchase,,,1148,GPUs,True,,,,,OFFICIAL,SEC.gov exhibit,Bitfarms,AI Clouds & Miners,Semis & Systems
+99,Bitfarms,,Appleby Strategy Group,,OTHER,Consulting engagement for HPC/AI feasibility,,,,,,,,,,OFFICIAL,investor.bitfarms.com press release,Bitfarms,AI Clouds & Miners,Other
+100,Bitfarms,,Macquarie,,SECURED_DEBT,private debt facility,0.3,False,,,,2,,,initial tranche maturity 2 years,OFFICIAL,investor.bitfarms.com press release,Bitfarms,AI Clouds & Miners,Capital Providers
+101,Bitfarms,,Bitmain Technologies,,VENDOR_FINANCING,ASIC miner purchase orders with financing,0.1987,True,81921,T21 miners,True,,,,,OFFICIAL,SEC.gov filing,Bitfarms,AI Clouds & Miners,Other
+102,Bitfarms,,Bitmain Technologies,,REPURCHASE,embedded repurchase option in BTC payment,0.0024,False,,,,1,2025-03-13,2026-03-13,repurchase over four quarterly installments,OFFICIAL,SEC.gov filing,Bitfarms,AI Clouds & Miners,Other
+103,Riot Platforms,,Bitfarms,,INVESTOR,equity stake purchase and takeover proposal,0.95,True,,,,,,,,REPORTED,Reuters and Riot press releases,Bitfarms,Other,AI Clouds & Miners
+104,BlackRock,,Global Infrastructure Partners,,MNA,Acquisition / Investment equity,3.0,True,,,,,2024-10-01,,Permanent (acquisition),OFFICIAL,SEC filing 2024-10-01,BlackRock,Capital Providers,Other
+105,BlackRock,,Microsoft,MSFT,INVESTOR,Investment equity / Partnership (GAIIP / AIP launch),30.0,True,,,,,2024-09-17,,Ongoing partnership / investment vehicle,OFFICIAL,BlackRock press release 2024-09-17,BlackRock,Capital Providers,Hyperscalers
+106,BlackRock,,NVIDIA,NVDA,OTHER,Technical advisor / Partnership (AIP),,,,,,,2025-03-19,,Ongoing (technical advisory relationship),OFFICIAL,BlackRock press release 2025-03-19,BlackRock,Capital Providers,Semis & Systems
+107,BlackRock,,NextEra Energy,,ENERGY_PPA,Energy collaboration / PPA-style power partnership,,,,,,,2025-03-19,,Ongoing collaboration; project-by-project,OFFICIAL,BlackRock press release 2025-03-19,BlackRock,Capital Providers,Power & Energy
+108,BlackRock,,GE Vernova,,ENERGY_PPA,Energy collaboration,,,,,,,2025-03-19,,Ongoing collaboration,OFFICIAL,BlackRock press release 2025-03-19,BlackRock,Capital Providers,Other
+109,BlackRock,,CoreWeave,,VENDOR_FINANCING,Debt financing participation,2.3,False,,,,,2023-08-03,,Facility terms not publicly detailed,REPORTED,PR Newswire 2023-08-03,BlackRock,Capital Providers,AI Clouds & Miners
+110,BlackRock,,CoreWeave,,VENDOR_FINANCING,Debt financing participation,7.5,False,,,,,2024-05-17,,Facility terms not publicly detailed,REPORTED,Blackstone press release 2024-05-17,BlackRock,Capital Providers,AI Clouds & Miners
+111,BlackRock,,CoreWeave,,INVESTOR,Equity / Secondary sale participation,0.65,False,,,,,2024-11-13,,N/A (secondary equity purchase),OFFICIAL,CoreWeave press release 2024-11-13,BlackRock,Capital Providers,AI Clouds & Miners
+112,BlackRock,,Aligned Data Centers,,MNA,Data center acquisition / Investment equity,40.0,True,,,,,2025-10-15,,Transaction expected close: H1 2026,REPORTED,Reuters 2025-10-15,BlackRock,Capital Providers,Data Centers
+113,BlackRock,,Applied Digital,APLD,INVESTOR,Investment equity (share acquisition),,,,,,,2024-12-31,,Ongoing equity ownership,REPORTED,GuruFocus 2024-12-31 filings,BlackRock,Capital Providers,AI Clouds & Miners
+114,Blackstone,,CoreWeave,,SECURED_DEBT,GPU-backed debt,2.3,False,,,,,,,,REPORTED,Reuters via investing.com,Blackstone,Capital Providers,AI Clouds & Miners
+115,Blackstone,,CoreWeave,,SECURED_DEBT,debt financing for AI compute expansion,7.5,False,,,,,,,,OFFICIAL,Blackstone press release,Blackstone,Capital Providers,AI Clouds & Miners
+116,Blackstone,,DataDirect Networks,,INVESTOR,equity / growth capital,0.3,False,,,,,,,Equity (permanent capital),OFFICIAL,Blackstone press release,Blackstone,Capital Providers,Other
+117,Blackstone,,Colovore,,SECURED_DEBT,debt facility for data center expansion,0.925,False,,,,,,,,OFFICIAL,PR Newswire,Blackstone,Capital Providers,Other
+118,Blackstone,,AirTrunk,,MNA,data-centers acquisition / equity buyout,16.1,True,,,,,,,,OFFICIAL,Blackstone press release,Blackstone,Capital Providers,Other
+119,Blackstone,,Digital Realty,,OTHER,data-center development JV,7.0,True,,,,3,2023-12-07,2026-12-31,Multi-year development program (through 2025–2026+),REPORTED,PR Newswire,Blackstone,Capital Providers,Data Centers
+120,Blackstone,,Aligned Data Centers,,SECURED_DEBT,senior secured credit facility,0.6,False,,,,,,,,OFFICIAL,Blackstone press release,Blackstone,Capital Providers,Data Centers
+121,Blackstone,,Potomac Energy Center,,MNA,power-asset acquisition,1.0,True,,,,,,,,REPORTED,Reuters,Blackstone,Capital Providers,Other
+122,Blackstone,,Hill Top Energy Center,,MNA,power-asset acquisition,1.0,True,,,,,,,,REPORTED,Reuters,Blackstone,Capital Providers,Other
+123,Blackstone,,QTS Realty,,SECURED_DEBT,refinancing secured loan,1.5,False,,,,7,2025-07-01,2032-06-30,Seven-year floating-rate loan,REPORTED,Bisnow,Blackstone,Capital Providers,Data Centers
+124,Broadcom,AVGO,VMware,,MNA,,84.186,True,,,,,,,,OFFICIAL,SEC filing Nov 2023,Broadcom,Semis & Systems,Other
+125,Broadcom,AVGO,Google,,CONTENT_LICENSING,License portability (VMware Cloud Foundation),,,,,,,,,,OFFICIAL,Company press release Feb 2024,Broadcom,Semis & Systems,Hyperscalers
+126,Broadcom,AVGO,Microsoft,MSFT,CONTENT_LICENSING,License portability (VCF on Azure VMware Solution),,,,,,,,,,OFFICIAL,Company press release May 2024,Broadcom,Semis & Systems,Hyperscalers
+127,Broadcom,AVGO,OpenAI,,CUSTOMER,AI accelerators & rack systems,,True,10,GW,False,4,2026-07-01,2029-12-31,deployment 2026–2029,REPORTED,Reuters Oct 2025,Broadcom,Semis & Systems,Hyperscalers
+128,Broadcom,AVGO,Google,,CUSTOMER,AI accelerator supply (TPU co-development),,,,,,2,2023-09-01,,multi-year ongoing since Sep 2023,COMPANY,Broadcom earnings calls Sep 2023 onward,Broadcom,Semis & Systems,Hyperscalers
+129,Broadcom,AVGO,Meta,META,CUSTOMER,ASIC co-development (MTIA),,,,,,3,2023-01-01,2025-12-31,multi-generation MTIA 2023–2025,REPORTED,Industry reports 2023–2025,Broadcom,Semis & Systems,Hyperscalers
+130,Broadcom,AVGO,Corning,GLW,OTHER,Equipment supply (Co-packaged optics components),,,,,,,,,,REPORTED,Industry report May 2025,Broadcom,Semis & Systems,Other
+131,Brookfield Asset Management,,Compass Datacenters,,INVESTOR,Acquisition / Investment equity,5.75,True,,,,,2023-06-20,2024-01-31,"One-time acquisition; announced Jun 20, 2023; closed by Q4 2023; funded Jan 2024",REPORTED,"Compass Datacenters press release, Brookfield announcement",Brookfield Asset Management,Capital Providers,Data Centers
+132,Brookfield Asset Management,,Data4 Group,,INVESTOR,Acquisition / Investment equity,3.0,False,,,,,2023-08-01,,"One-time acquisition; closed Aug 1, 2023",OFFICIAL,SEC filing,Brookfield Asset Management,Capital Providers,Other
+133,Brookfield Asset Management,,Microsoft,,ENERGY_PPA,Renewable energy framework / Corporate PPA (power),10.0,True,10.5,GW,False,5,2026-01-01,2030-12-31,5-year framework; delivery 2026–2030,OFFICIAL,SEC filing and corporate announcement,Brookfield Asset Management,Capital Providers,Hyperscalers
+134,Brookfield Asset Management,,French Government,,INVESTOR,Development commitment / Investment program,22.0,True,,,,5,2025-02-10,2030-12-31,Multi-year program to 2030,REPORTED,Nasdaq article reporting announcement,Brookfield Asset Management,Capital Providers,Other
+135,Brookfield Asset Management,,Municipality of Strängnäs,,INVESTOR,Development commitment / Data-center buildout,9.9,True,,,,15,2025-06-04,,Multi-phase development (10-15 years),REPORTED,Reuters report on Brookfield plans,Brookfield Asset Management,Capital Providers,Other
+136,Brookfield Asset Management,,Crusoe,,SECURED_DEBT,Infrastructure debt / Credit facility,0.75,False,,,,,2025-06-11,,Multi-year credit facility,OFFICIAL,Press release,Brookfield Asset Management,Capital Providers,AI Clouds & Miners
+137,Brookfield Asset Management,,Google,,ENERGY_PPA,Hydro framework agreement / PPA power,3.0,False,670,MW,False,20,,,"20-year PPAs for initial contracts; optional up to 3,000 MW",OFFICIAL,GlobeNewswire announcement,Brookfield Asset Management,Capital Providers,Hyperscalers
+138,Brookfield Asset Management,,Arjun Infrastructure Partners,,SALE_LEASEBACK,Asset sale / monetization,3.6,False,,,,,2025-08-01,,"One-time asset sale; closed Aug 1, 2025",OFFICIAL,"SEC filing, DataCenterDynamics report",Brookfield Asset Management,Capital Providers,Other
+139,Brookfield Asset Management,,Bloom Energy,,INVESTOR,Strategic partnership / Investment & preferred onsite power supplier,5.0,False,,,,,2025-10-13,,Multi-year strategic partnership; phased deployment,OFFICIAL,Bloom Energy press release,Brookfield Asset Management,Capital Providers,Other
+140,Bain Capital,,Chindata,,INVESTOR,take-private equity acquisition,3.16,False,,,,,,,,REPORTED,Axios via public announcement,Chindata,Other,Data Centers
+141,ByteDance,,Chindata,,ANCHOR_TENANT,data-center lease / hyperscale tenancy,2.13,True,110,MW,True,10,,,Typically 10 years (typical hyperscale contract),REPORTED,Reuters,Chindata,Other,Data Centers
+142,Microsoft,,Chindata,,CUSTOMER,data-center services / lease (hyperscale),,,,,,5,,,Typically 5–10 years (hyperscale contracts general term),OFFICIAL,Chindata SEC filings,Chindata,Hyperscalers,Data Centers
+143,Guangdong HEC-led consortium,,Bain Capital,,MNA,investment equity sale / portfolio divestment,3.96,True,,,,,,,,REPORTED,Y94.com 2025 announcement,Chindata,Other,Other
+144,Cisco Systems,CSCO,X-ELIO,,ENERGY_PPA,power,,,100,MW,False,12,,,12 years,OFFICIAL,PR Newswire 2025-03-12,Cisco Systems,Semis & Systems,Other
+145,Cisco Systems,CSCO,CleanMax,,ENERGY_PPA,power,,,92.1,MW,False,,,,long-term,OFFICIAL,PR Newswire 2025-04-22,Cisco Systems,Semis & Systems,Other
+146,Cisco Systems,CSCO,CoreWeave,,INVESTOR,equity secondary participation,,,,,,,,,,OFFICIAL,CoreWeave Investors News 2024-11-13,Cisco Systems,Semis & Systems,AI Clouds & Miners
+147,Cisco Systems,CSCO,Cohere,,INVESTOR,equity AI fund,1.0,False,,,,,,,,OFFICIAL,Cisco newsroom 2024-06-04,Cisco Systems,Semis & Systems,Foundation Labs
+148,Cisco Systems,CSCO,Mistral,,INVESTOR,equity AI fund,1.0,False,,,,,,,,OFFICIAL,Cisco newsroom 2024-06-04,Cisco Systems,Semis & Systems,Foundation Labs
+149,Cisco Systems,CSCO,Mistral,,CONTENT_LICENSING,AI agent co-development,,,,,,,,,multi-year product collaboration,OFFICIAL,Cisco newsroom 2025-02-10,Cisco Systems,Semis & Systems,Foundation Labs
+150,Cisco Systems,CSCO,Scale AI,,INVESTOR,equity AI fund Series F participation,1.0,False,,,,,,,,REPORTED,Reuters 2024-06-04,Cisco Systems,Semis & Systems,Other
+151,Cisco Systems,CSCO,Splunk,SPLK,MNA,,28.0,True,,,,,,,,REPORTED,Investopedia 2024-03-18,Cisco Systems,Semis & Systems,Other
+152,Cisco Systems,CSCO,AI Infrastructure Partnership,,INVESTOR,investment partnership / data-center collaboration,30.0,True,,,,,,,,OFFICIAL,Cisco newsroom 2025-05-13,Cisco Systems,Semis & Systems,Other
+153,Cisco Systems,CSCO,HUMAIN,,OTHER,compute capacity / infrastructure partnership,,,,,,,,,multi-year,OFFICIAL,Cisco newsroom 2025-05-13,Cisco Systems,Semis & Systems,Other
+154,Cisco Systems,CSCO,Aggregate Customers,,VENDOR_FINANCING,vendor financing program,,,,,,,,,deferred payments until 2024,OFFICIAL,Cisco newsroom 2023-05-03,Cisco Systems,Semis & Systems,Other
+155,Cisco Systems,CSCO,Aggregate Customers,,CUSTOMER,RPO backlog (future contracted revenue),43.5,False,,,,,,,,OFFICIAL,Cisco FY25 earnings 2025-08-13,Cisco Systems,Semis & Systems,Other
+156,Inovia Capital,,Cohere,,INVESTOR,Series C financing,0.27,False,,,,,,,,REPORTED,TechCrunch 2023-06-08,Cohere,Other,Foundation Labs
+157,Cisco Systems,,Cohere,,INVESTOR,Growth financing,0.5,False,,,,,,,,REPORTED,TechCrunch 2024-07-22,Cohere,Semis & Systems,Foundation Labs
+158,Radical Ventures,,Cohere,,INVESTOR,Growth financing,0.5,False,,,,,,,,REPORTED,Reuters 2025-08-14,Cohere,Other,Foundation Labs
+159,Government of Canada,,Cohere,,INVESTOR,Public funding,0.18,True,,,,,,,,REPORTED,AI Journ 2025-03-20,Cohere,Other,Foundation Labs
+160,Cohere,,CoreWeave,,ANCHOR_TENANT,data center lease / compute capacity,,,,,,,2024-12-01,2025-03-31,Dec 2024 – early 2025,REPORTED,Datacenter Knowledge 2024,Cohere,Foundation Labs,AI Clouds & Miners
+161,Cohere,,Google,,CUSTOMER,Compute capacity,,,,,,3,2021-11-01,2024-12-31,Multi-year with options to extend into 2025 and 2026,REPORTED,VentureBeat 2021-11,Cohere,Foundation Labs,Hyperscalers
+162,Oracle,,Cohere,,CONTENT_LICENSING,platform integration,,,,,,,,,,REPORTED,InfoWorld 2023-09-20,Cohere,Hyperscalers,Foundation Labs
+163,Dell Technologies,,Cohere,,CUSTOMER,Compute capacity (on-prem infrastructure deployment),,,,,,,,,,OFFICIAL,Dell 2025-05-19,Cohere,Semis & Systems,Foundation Labs
+164,AMD,,Cohere,,PLATFORM_INTEGRATION,GPU deployment / compute partnership,,,,,,,,,,OFFICIAL,AMD 2025-06-12,Cohere,Semis & Systems,Foundation Labs
+165,Fujitsu,,Cohere,,INVESTOR,Strategic investment and joint development,,,,,,,,,,OFFICIAL,Fujitsu 2024-07-16,Cohere,Other,Foundation Labs
+166,Cohere,,SAP,,CONTENT_LICENSING,platform integration,,,,,,,,,,REPORTED,SAP 2024-05-29,Cohere,Foundation Labs,Other
+167,Cohere,,LivePerson,,CONTENT_LICENSING,model fine-tuning partnership,,,,,,,,,,REPORTED,TechCrunch 2023,Cohere,Foundation Labs,Other
+168,Cohere,,Royal Bank of Canada,,CUSTOMER,Compute capacity / private deployment,,,,,,,2025-01-01,,Pilot launched Jan 2025; active May 2025,REPORTED,Reuters 2025-05,Cohere,Foundation Labs,Other
+169,Cohere,,Bell Canada,,CONTENT_LICENSING,sovereign AI deployment partnership,,,,,,,,,,COMPANY,BCE Q2-2025 press materials,Cohere,Foundation Labs,Other
+170,Brookfield Infrastructure Partners & Ontario Teachers’ Pension Plan,,Compass Datacenters,,INVESTOR,acquisition,5.5,True,,,,,2023-06-20,2023-10-03,One-time acquisition,REPORTED,company + Bloomberg,Compass Datacenters,Other,Data Centers
+171,Schneider Electric,,Compass Datacenters,,VENDOR_FINANCING,equipment supply / modular data-center solutions,3.0,False,,,,5,2023-11-09,,multi-year,OFFICIAL,company press release,Compass Datacenters,Other,Data Centers
+172,Schneider Electric,,Compass Datacenters,,OTHER,supply-chain integration facility partnership,,,110000,sq ft,False,,,,,OFFICIAL,company press release,Compass Datacenters,Other,Data Centers
+173,Vertiv,,Compass Datacenters,,VENDOR_FINANCING,cooling / thermal infrastructure supply,2.0,True,,,,,2025-01-01,,"multi-year, initial deployment Q1 2025",OFFICIAL,company press release,Compass Datacenters,Other,Data Centers
+174,Siemens,,Compass Datacenters,,VENDOR_FINANCING,power equipment supply / capacity agreement,,,1500,modular power skids,False,5,2024-12-04,,5-year agreement,OFFICIAL,company press release,Compass Datacenters,Other,Data Centers
+175,Mississippi Power,,Compass Datacenters,,UTILITY_TARIFF,power supply for Meridian campus,,,500,MW,True,,2025-02-04,,multi-year build-out,REPORTED,industry press,Compass Datacenters,Other,Data Centers
+176,ComEd,,Compass Datacenters,,UTILITY_TARIFF,local utility support / site development partnership,,,,,,,2024-06-13,,multi-year development,OFFICIAL,company press release,Compass Datacenters,Other,Data Centers
+177,Constellation Energy,CEG,Microsoft,,CONTENT_LICENSING,hourly carbon-free energy matching,,,,,,,,,,OFFICIAL,constellationenergy.com press release 2023-06-29,Constellation Energy,Power & Energy,Hyperscalers
+178,Constellation Energy,CEG,Microsoft,,ENERGY_PPA,power purchase agreement for Three Mile Island Unit 1 restart,1.6,True,835,MW,False,20,,,20 years; in-service ~2028,OFFICIAL,businesswire.com and nasdaq.com press release 2024-09-20,Constellation Energy,Power & Energy,Hyperscalers
+179,Constellation Energy,CEG,Meta,,ENERGY_PPA,power purchase agreement for Clinton Clean Energy Center output,,,1121,MW,False,20,2027-06-01,,20 years (commences June 2027),OFFICIAL,constellationenergy.com press release 2025-06-03,Constellation Energy,Power & Energy,Hyperscalers
+180,Core Scientific,,CoreWeave,,LEASE,compute capacity,0.1,True,16,MW,False,,,,multi-year,REPORTED,"DatacenterDynamics article (Mar 7, 2024)",Core Scientific,AI Clouds & Miners,AI Clouds & Miners
+181,Core Scientific,,CoreWeave,,CUSTOMER,HPC hosting,3.5,True,200,MW,True,12,,,,OFFICIAL,"Core Scientific press release June 3, 2024",Core Scientific,AI Clouds & Miners,AI Clouds & Miners
+182,Core Scientific,,CoreWeave,,CUSTOMER,HPC hosting,1.225,True,70,MW,True,12,,,,OFFICIAL,"Core Scientific PR June 25, 2024",Core Scientific,AI Clouds & Miners,AI Clouds & Miners
+183,Core Scientific,,CoreWeave,,CUSTOMER,HPC hosting,,True,112,MW,True,12,,,,OFFICIAL,Core Scientific PR Aug–Oct 2024,Core Scientific,AI Clouds & Miners,AI Clouds & Miners
+184,Core Scientific,,CoreWeave,,CUSTOMER,HPC hosting,8.7,True,120,MW,True,12,,,,OFFICIAL,"Core Scientific PR Oct 22, 2024",Core Scientific,AI Clouds & Miners,AI Clouds & Miners
+185,Core Scientific,,CoreWeave,,LEASE,data center space,1.2,True,,,,,,,multi-year,REPORTED,"DatacenterDynamics Feb 27, 2025",Core Scientific,AI Clouds & Miners,AI Clouds & Miners
+186,Core Scientific,,City of Denton,,ENERGY_PPA,power purchase and land lease amendments,6.1,True,,,,,,2027-12-31,build-out to 2027,REPORTED,"City of Denton Nov 20, 2024",Core Scientific,AI Clouds & Miners,Other
+187,Core Scientific,,Bitmain Technologies Delaware Limited,,VENDOR_FINANCING,asset purchase + equity,0.0771,False,27000,Bitmain S19J XP miners,False,,,,,OFFICIAL,"Core Scientific 8-K Jan 23, 2024",Core Scientific,AI Clouds & Miners,Other
+188,Core Scientific,,JPMorgan,,SECURED_DEBT,term loan facility,1.0,False,,,,,2024-12-16,2025-04-11,Single/funded term loan facility,OFFICIAL,Core Scientific 8-K filings Dec 2024–Apr 2025,Core Scientific,AI Clouds & Miners,Capital Providers
+189,CoreWeave,,Core Scientific,,MNA,all-stock acquisition,9.0,True,,,,,,,expected close Q4 2025,REPORTED,"CoreWeave press release and Reuters July 7, 2025",Core Scientific,AI Clouds & Miners,AI Clouds & Miners
+190,CoreWeave,,OpenAI,,CUSTOMER,AI infrastructure,11.9,False,,,,5,2025-03-10,,5 years,OFFICIAL,CoreWeave press release,CoreWeave,AI Clouds & Miners,Hyperscalers
+191,CoreWeave,,OpenAI,,INVESTOR,Equity,0.35,False,,,,,,,,OFFICIAL,CoreWeave press release,CoreWeave,AI Clouds & Miners,Hyperscalers
+192,CoreWeave,,Microsoft,MSFT,CUSTOMER,Compute capacity,10.0,True,,,,8,2023-01-01,2030-12-31,2023–2030,REPORTED,Nasdaq article,CoreWeave,AI Clouds & Miners,Hyperscalers
+193,CoreWeave,,Meta,META,CUSTOMER,Compute capacity,14.2,True,,,,7,,2031-12-14,"Through December 14, 2031 (option to 2032)",OFFICIAL,Investing.com news,CoreWeave,AI Clouds & Miners,Hyperscalers
+194,CoreWeave,,Core Scientific,,LEASE,Data center lease,3.5,True,200,MW,True,12,2024-06-04,,12-year contract,OFFICIAL,Core Scientific SEC filing,CoreWeave,AI Clouds & Miners,AI Clouds & Miners
+195,CoreWeave,,Core Scientific,,LEASE,Data center lease option 1,1.225,False,70,MW,False,12,2024-06-25,,12-year contract,OFFICIAL,Core Scientific SEC filing,CoreWeave,AI Clouds & Miners,AI Clouds & Miners
+196,CoreWeave,,Core Scientific,,LEASE,Data center lease option 2,2.0,True,112,MW,False,12,2024-08-06,,12-year contract,OFFICIAL,Core Scientific press release,CoreWeave,AI Clouds & Miners,AI Clouds & Miners
+197,CoreWeave,,Applied Digital,APLD,LEASE,Data center lease expansion,11.0,True,400,MW,False,15,2025-08-01,,15 years,OFFICIAL,Data Center Dynamics,CoreWeave,AI Clouds & Miners,AI Clouds & Miners
+198,CoreWeave,,Galaxy Digital,,LEASE,Data center lease Phase I,,,133,MW,False,15,2025-03-28,,15 years,OFFICIAL,Galaxy investor news,CoreWeave,AI Clouds & Miners,Other
+199,CoreWeave,,Galaxy Digital,,LEASE,Data center lease Phase II option,,,260,MW,False,15,2025-04-23,,Similar to Phase I,OFFICIAL,Galaxy press release,CoreWeave,AI Clouds & Miners,Other
+200,CoreWeave,,Digital Realty,,LEASE,Data center lease UK Crawley,,,,,,,,,,OFFICIAL,CoreWeave press release,CoreWeave,AI Clouds & Miners,Data Centers
+201,CoreWeave,,Global Switch,,LEASE,Data center lease UK London Docklands,,,,,,,,,,OFFICIAL,CoreWeave announcement,CoreWeave,AI Clouds & Miners,Other
+202,CoreWeave,,NVIDIA,NVDA,REVENUE_SHARE,Repurchase backstop,6.3,False,,,,7,2025-09-15,2032-04-13,"Through April 13, 2032",REPORTED,Reuters,CoreWeave,AI Clouds & Miners,Semis & Systems
+203,CoreWeave,,Magnetar,,SECURED_DEBT,Collateral loan,2.3,False,,,,,,,,REPORTED,Investing.com,CoreWeave,AI Clouds & Miners,Other
+204,CoreWeave,,JPMorgan,,SECURED_DEBT,Collateral loan Revolver,0.65,False,,,,,,,,OFFICIAL,PR Newswire,CoreWeave,AI Clouds & Miners,Capital Providers
+205,CoreWeave,,Morgan Stanley,,SECURED_DEBT,Delayed draw term loan,2.6,False,,,,5,2025-07-31,2030-08-21,"Matures August 21, 2030",OFFICIAL,CoreWeave press release,CoreWeave,AI Clouds & Miners,Capital Providers
+206,CoreWeave,,NVIDIA,NVDA,CUSTOMER,GPU purchase,,,,,,,,,,OFFICIAL,CoreWeave press release,CoreWeave,AI Clouds & Miners,Semis & Systems
+207,CoreWeave,,IBM,IBM,CUSTOMER,Compute capacity,,,,,,,,,,OFFICIAL,CoreWeave press release,CoreWeave,AI Clouds & Miners,Hyperscalers
+208,CoreWeave,,Mistral,,CUSTOMER,Compute capacity,,,,,,,,,,COMPANY,CoreWeave blog,CoreWeave,AI Clouds & Miners,Foundation Labs
+209,CoreWeave,,Cohere,,CUSTOMER,Compute capacity,,,,,,,,,,OFFICIAL,PR Newswire,CoreWeave,AI Clouds & Miners,Foundation Labs
+210,CoreWeave,,Core Scientific,,LEASE,Data center lease initial,,,200,MW,False,12,2024-06-03,,12 years,REPORTED,Reuters,CoreWeave,AI Clouds & Miners,AI Clouds & Miners
+211,Crusoe,,AMD,AMD,CUSTOMER,Instinct MI355X GPUs,0.4,False,13000,Instinct MI355X GPUs,False,,,,,REPORTED,Reuters,Crusoe,AI Clouds & Miners,Semis & Systems
+212,Crusoe,,Oracle,,LEASE,"Data center lease, 206 MW",,,206,MW,False,,2025-01-01,,"Long-term lease, occupancy expected 1H 2025",REPORTED,Business Insider,Crusoe,AI Clouds & Miners,Hyperscalers
+213,Crusoe,,Blue Owl Capital,,INVESTOR,"Joint venture, 206 MW AI data center",3.4,False,206,MW,False,,2024-10-15,,JV,OFFICIAL,Crusoe press release,Crusoe,AI Clouds & Miners,Other
+214,Crusoe,,Blue Owl Capital,,INVESTOR,"Joint venture, 1.2 GW AI data center expansion",15.0,False,1200,MW,False,,2025-05-21,,JV second phase,OFFICIAL,Crusoe press release,Crusoe,AI Clouds & Miners,Other
+215,Crusoe,,JPMorgan,,SECURED_DEBT,"Construction loan, 206 MW build-to-suit data center",2.3,False,206,MW,False,,2025-01-22,,Construction financing,OFFICIAL,PR Newswire,Crusoe,AI Clouds & Miners,Capital Providers
+216,Crusoe,,Upper90,,SECURED_DEBT,Asset-backed credit facility for NVIDIA GPU purchase,0.225,True,,,,,2025-03-27,,Credit facility,OFFICIAL,GlobeNewswire,Crusoe,AI Clouds & Miners,Other
+217,Crusoe,,atNorth,,LEASE,"Colocation at ICE02 data center, 33 MW initial capacity",,,33,MW,False,,,,,OFFICIAL,Crusoe press release,Crusoe,AI Clouds & Miners,Other
+218,Crusoe,,atNorth,,LEASE,Expansion to 57 MW at ICE02 data center,,,57,MW,False,,,,,OFFICIAL,atNorth press release,Crusoe,AI Clouds & Miners,Other
+219,Crusoe,,Polar,,LEASE,"12 MW facility in Norway, expandable to 52 MW",,,12,MW,False,,,,,OFFICIAL,GlobeNewswire,Crusoe,AI Clouds & Miners,Other
+220,Crusoe,,KALiNA Power Limited,,ENERGY_PPA,Multi-year power purchase agreement for co-sited AI data centers,,,170,MW,False,,2025-02-12,,Multi-year framework,OFFICIAL,PR Newswire,Crusoe,AI Clouds & Miners,Other
+221,Crusoe,,GE Vernova,,OTHER,Equipment supply - 29 gas turbine packages up to ~1 GW electricity,,,29,gas turbine packages,False,,,,,OFFICIAL,GE Vernova press release,Crusoe,AI Clouds & Miners,Other
+222,Crusoe,,Hewlett Packard Enterprise,HPE,CUSTOMER,HPE Cray XD supercomputers with NVIDIA H100,,,,,,,,,,OFFICIAL,HPE press release,Crusoe,AI Clouds & Miners,Semis & Systems
+223,Crusoe,,Founders Fund,,INVESTOR,Series D funding round with multiple investors including NVIDIA,0.6,False,,,,,,,,OFFICIAL,Crusoe press release,Crusoe,AI Clouds & Miners,Other
+224,Crusoe,,AMD,AMD,CUSTOMER,Collaboration for AI cloud solutions with MI355X GPUs,,,,,,,,,,OFFICIAL,GlobeNewswire,Crusoe,AI Clouds & Miners,Semis & Systems
+225,Crusoe,,OpenAI,,INVESTOR,Project financing for Abilene campus expansion,11.6,False,,,,,2025-05-21,,Project financing (mix),REPORTED,Reuters,Crusoe,AI Clouds & Miners,Hyperscalers
+226,Crusoe,,Oracle,,LEASE,Lease compute to OpenAI as part of project financing,,,,,,,2025-05-21,,Part of $11.6B funding,REPORTED,Reuters,Crusoe,AI Clouds & Miners,Hyperscalers
+227,CyrusOne,CONE,Morgan Stanley,,VENDOR_FINANCING,Warehouse & Revolving credit facilities,9.7,True,,,,,2024-07-08,,Facility terms per credit agreements,OFFICIAL,CyrusOne press release,CyrusOne,Data Centers,Capital Providers
+228,CyrusOne,CONE,Several leading-edge technology companies,,OTHER,Build-to-suit AI data center solution,,,300,kW per rack,True,,2023-08-24,,Ongoing offering availability / build-to-suit projects,OFFICIAL,CyrusOne press release,CyrusOne,Data Centers,Other
+229,CyrusOne,CONE,Calpine,,ENERGY_PPA,Dedicated power agreement,1.2,True,190,MW,False,,2025-07-30,,Long-term power arrangement (term not specified),OFFICIAL,CyrusOne press release,CyrusOne,Data Centers,Other
+230,Energy Capital Partners,,CyrusOne,CONE,INVESTOR,Joint venture hyperscale data center campus development,4.0,True,144,MW IT capacity,False,,2025-07-30,,Development to operation expected Q4 2026,OFFICIAL,ECP/KKR press release,CyrusOne,Other,Data Centers
+231,Dell Technologies,,CoreWeave,,CUSTOMER,GPU purchase / Compute capacity,,,,,,,,,,OFFICIAL,CoreWeave press release via investors.coreweave.com,Dell Technologies,Semis & Systems,AI Clouds & Miners
+232,Dell Technologies,,xAI,,CUSTOMER,AI optimized servers,5.0,True,,,,,2025-01-01,2025-12-31,2025 delivery window,REPORTED,Reuters news report 2025-02-14,Dell Technologies,Semis & Systems,Foundation Labs
+233,Dell Technologies,,Bit Digital,BTBT,CUSTOMER,HGX H100 GPU servers,0.275,True,256,Dell servers,False,3,,,3-year supply / deployment,COMPANY,Bit Digital press release 2024-06-25,Dell Technologies,Semis & Systems,Other
+234,Dell Technologies,,NVIDIA,NVDA,CONTENT_LICENSING,NVIDIA AI Enterprise software licensing,,,,,,5,,,5-year subscription,OFFICIAL,Dell press release 2025-03-18,Dell Technologies,Semis & Systems,Semis & Systems
+235,Dell Technologies,,Clearway Energy Group,,ENERGY_PPA,Virtual Power Purchase Agreement (vPPA),0.665,False,300,MW solar plus 200 MW storage,False,,,,,OFFICIAL,Clearway Energy Group press release Oct 2024,Dell Technologies,Semis & Systems,Other
+236,Dell Technologies,,Nscale,,INVESTOR,Series B equity financing participation,1.1,False,,,,,,,,REPORTED,DatacenterDynamics news report 2025-09-25,Dell Technologies,Semis & Systems,Other
+237,Dell Technologies,,NVIDIA,NVDA,REPURCHASE,Capacity purchase backstop arrangement with CoreWeave,6.3,False,,,,7,2025-09-15,2032-04-13,multi-year capacity purchase guarantee through 2032-04-13,REPORTED,Reuters news report 2025-09-15,Dell Technologies,Semis & Systems,Semis & Systems
+238,Dell Technologies,,Switch,,LEASE,Data center rack hosting and AI Factory deployment,,,,,,,,,,OFFICIAL,Switch press release 2025-07,Dell Technologies,Semis & Systems,Data Centers
+239,Dell Technologies,,SecureWorks,,SECURED_DEBT,Revolving credit facility,0.03,False,,,,1,2023-03-23,2024-03-23,1-year revolving credit facility,OFFICIAL,SecureWorks contract filing 2023-03-23,Dell Technologies,Semis & Systems,Other
+240,Blackstone-affiliated funds,,Digital Realty,,INVESTOR,joint venture,0.7,True,500,MW,True,3,2023-12-07,2026-12-31,Multi-year development program through 2025–2026+,OFFICIAL,https://www.blackstone.com/news/press/digital-realty-and-blackstone-announce-7-billion-hyperscale-data-center-development-joint-venture/,Digital Realty,Other,Data Centers
+241,Realty Income Corporation,,Digital Realty,,INVESTOR,joint venture,0.2,True,,,,10,2024-06-30,2034-06-30,10-year tenant leases with extension options; build-to-suit; facilities completed mid-2024,OFFICIAL,https://www.prnewswire.com/news-releases/digital-realty-and-realty-income-form-build-to-suit-data-center-development-joint-venture-301985266.html,Digital Realty,Other,Data Centers
+242,TPG Real Estate,,Digital Realty,,INVESTOR,joint venture,1.5,True,,,,,2023-07-27,,Stabilized asset JV; ongoing management,OFFICIAL,https://www.prnewswire.com/news-releases/digital-realty-and-tpg-announce-joint-venture-of-hyperscale-data-centers-in-northern-virginia-301887667.html,Digital Realty,Other,Data Centers
+243,ENGIE,,Digital Realty,,ENERGY_PPA,solar power,,,116,MW,False,10,2023-02-02,2033-02-02,10-year power purchase agreement,OFFICIAL,https://www.prnewswire.com/news-releases/digital-realty-invests-in-photovoltaics-in-germany-through-a-power-purchase-agreement-with-engie-301737094.html,Digital Realty,Other,Data Centers
+244,GI Partners,,Digital Realty,,INVESTOR,joint venture,0.7,True,,,,,2023-07-13,,Joint venture formed July 2023; stake top-up Jan & Apr 2024,OFFICIAL,https://www.sec.gov/Archives/edgar/data/1297996/000155837025001424/dlr-20241231x10k.htm,Digital Realty,Other,Data Centers
+245,Novo Nordisk Foundation & EIFO,,Digital Realty,,CUSTOMER,AI supercomputer hosting with NVIDIA DGX H100 systems,,,191,NVIDIA DGX H100 systems,False,,,,,OFFICIAL,https://www.prnewswire.com/news-releases/digital-realty-to-host-nvidia-powered-ai-supercomputer-in-denmark-302105792.html,Digital Realty,Other,Data Centers
+246,Oracle,,Digital Realty,,CUSTOMER,GPU-based infrastructure deployment for enterprise AI,,,,,,,,,,OFFICIAL,https://www.prnewswire.com/news-releases/digital-realty-and-oracle-further-strengthen-collaboration-to-enable-the-next-generation-of-cloud-native-and-ai-enterprise-workloads-302134428.html,Digital Realty,Hyperscalers,Data Centers
+247,NVIDIA,,Digital Realty,,OTHER,DGX-ready data center certification,,,,,,,,,,OFFICIAL,https://www.prnewswire.com/news-releases/digital-realty-announces-its-first-nvidia-dgx-h100-ready-data-center-301872632.html,Digital Realty,Semis & Systems,Data Centers
+248,Tenstorrent,,Digital Realty,,CUSTOMER,data center lease / AI deployment,,,,,,,,,,REPORTED,https://www.datacenterdynamics.com/en/news/q4-2024-data-center-colocation-results-digital-realty-equinix-and-iron-mountain/,Digital Realty,Other,Data Centers
+249,Stonepeak,,Dominion Energy,,INVESTOR,project farm-down,2.6,True,,,,,,,,OFFICIAL,investors.dominionenergy.com press release,Dominion Energy,Other,Power & Energy
+250,Avangrid,,Dominion Energy,,MNA,lease purchase,0.16,True,,,,,,,,OFFICIAL,avangrid.com press release,Dominion Energy,Other,Power & Energy
+251,Amazon,,Dominion Energy,,OTHER,SMR development financing exploration,,,,,,,2024-10-16,,MOU / exploratory,OFFICIAL,investors.dominionenergy.com press release,Dominion Energy,Hyperscalers,Power & Energy
+252,RWE,,Dominion Energy,,ENERGY_PPA,solar,,,300,MW,True,,,,long-term,REPORTED,pv-magazine-usa.com,Dominion Energy,Other,Power & Energy
+253,NuScale / Westinghouse / Holtec / others,,Dominion Energy,,VENDOR_FINANCING,SMR vendor selection RFP,,,,,,,2024-07-10,,Active / evaluation,REPORTED,reuters.com,Dominion Energy,Other,Power & Energy
+254,Tract (Hanover Technology Park developer),,Dominion Energy,,OTHER,Data center substation procurement & site support,,,2.4,GW,False,,2024-05-08,,multi-year / planning and procurement,REPORTED,datacenterdynamics.com,Dominion Energy,Other,Power & Energy
+255,Duke Energy,,Amazon,,UTILITY_TARIFF,Clean Transition Tariff / ACE framework,,,,,,,,,,REPORTED,"Reuters, Duke Energy press release May 2024",Duke Energy,Power & Energy,Hyperscalers
+256,Duke Energy,,Google,,UTILITY_TARIFF,Clean Transition Tariff / ACE framework,,,,,,,,,,REPORTED,"Reuters, Duke Energy press release May 2024",Duke Energy,Power & Energy,Hyperscalers
+257,Duke Energy,,Microsoft,,UTILITY_TARIFF,Clean Transition Tariff / ACE framework,,,,,,,,,,REPORTED,"Reuters, Duke Energy press release May 2024",Duke Energy,Power & Energy,Hyperscalers
+258,Duke Energy,,Nucor,,UTILITY_TARIFF,Clean Transition Tariff / ACE framework,,,,,,,,,,REPORTED,"Reuters, Duke Energy press release May 2024",Duke Energy,Power & Energy,Other
+259,Duke Energy,,Amazon,AMZN,CUSTOMER,Compute / Cloud services,,,,,,3,2023-01-01,2025-12-31,multi-year,COMPANY,"AWS blog Nov 2022, 2025 conference materials",Duke Energy,Power & Energy,Hyperscalers
+260,Duke Energy,,Enovum Data Centers,,CAPACITY_RESERVATION,Capacity Agreement for data-center power purchase,,,99,MW,False,4,2025-05-16,2029-05-15,capacity to 99 MW within 4 years of 2025-05-16,OFFICIAL,Contract Justia and SEC filings May 2025,Duke Energy,Power & Energy,Other
+261,Duke Energy,,Amazon,,CUSTOMER,Site-readiness / power-supply for AI/cloud campus,10.0,True,,,,,2025-06-04,,multi-year buildout,REPORTED,"Reuters June 2025, Duke SEC filings",Duke Energy,Power & Energy,Hyperscalers
+262,EdgeConneX,,AdaniConneX,,SECURED_DEBT,sustainability-linked construction financing,1.44,True,,,,,,,,REPORTED,Reuters,EdgeConneX,Data Centers,Other
+263,EdgeConneX,,Kagoya Asset Management,,LEASE,land lease / site development,,,200,MW,False,3,2025-01-13,2027-01-13,Target RFS 2027,OFFICIAL,edgeconnex.com press release,EdgeConneX,Data Centers,Other
+264,EdgeConneX,,Rackspace Technology,,LEASE,build-to-suit / tenant colocation partnership,0.44,False,,,,,,,,REPORTED,expressnews.com,EdgeConneX,Data Centers,Other
+265,Gridmatic,,EdgeConneX,,ENERGY_PPA,solar renewable supply 24/7 hourly matching,,,10,MW,False,,,,,OFFICIAL,gridmatic.com press release,EdgeConneX,Other,Data Centers
+266,EQT Infrastructure VI,,EdgeConneX,,INVESTOR,strategic partnership / investment,,,,,,,,,,REPORTED,europawire.eu,EdgeConneX,Other,Data Centers
+267,EdgeConneX,,CoreWeave,,CUSTOMER,compute capacity / colocation lease,,,,,,,,,,REPORTED,datacenterdynamics.com,EdgeConneX,Data Centers,AI Clouds & Miners
+268,EdgeConneX,,Ori,,CUSTOMER,compute capacity / colocation lease,,,,,,,,,,REPORTED,amplinktech.com,EdgeConneX,Data Centers,Other
+269,GIC,,Equinix,,INVESTOR,Investment equity joint venture,15.0,True,,,,,,,,OFFICIAL,Equinix press release 2024-10-01,Equinix,Other,Data Centers
+270,CPP Investments,,Equinix,,INVESTOR,Investment equity joint venture,15.0,True,,,,,,,,OFFICIAL,Equinix press release 2024-10-01,Equinix,Other,Data Centers
+271,PGIM Real Estate,,Equinix,,INVESTOR,Joint venture for xScale data center development,0.6,False,,,,,2024-04-01,,"multi-phase, first phase Q2 2024",OFFICIAL,Equinix press release 2024-04-15,Equinix,Other,Data Centers
+272,Dell Technologies,,Equinix,,OTHER,Compute capacity / private AI solution,,,,,,,,,,OFFICIAL,Equinix press release 2024-12-19,Equinix,Semis & Systems,Data Centers
+273,NVIDIA,,Equinix,,OTHER,Compute capacity / GPU-managed service,,,,,,,2024-02-05,2025-03-01,ongoing partnership; Instant AI Factory rollout by March 2025,COMPANY,"Equinix blog 2024-02-05, company statements",Equinix,Semis & Systems,Data Centers
+274,VAST Data,,Equinix,,OTHER,Compute capacity / solution validation,,,,,,,,,,REPORTED,GlobeNewswire 2024-10-01,Equinix,Other,Data Centers
+275,Block,,Equinix,,CUSTOMER,Data center lease / compute capacity,,,,,,,,,,REPORTED,Block investor news 2025-03-12,Equinix,Other,Data Centers
+276,Groq,,Equinix,,CUSTOMER,Data center lease / compute capacity,,,,,,,2025-07-07,,operational July 2025,REPORTED,CNBC 2025-07-07,Equinix,Other,Data Centers
+277,CleanMax,,Equinix,,ENERGY_PPA,Captive renewable power project,,,33,MW,False,,2025-01-01,,phased operational in 2025,OFFICIAL,Equinix press release 2024-11-19,Equinix,Other,Data Centers
+278,Neoen,,Equinix,,ENERGY_PPA,Virtual PPA Italy,,,53,MW,False,10,2024-11-26,2034-11-26,10-year,OFFICIAL,Equinix press release 2024-11-26,Equinix,Other,Data Centers
+279,Sembcorp,,Equinix,,ENERGY_PPA,Renewable energy PPA Singapore,,,58.5,MWp,False,,,,,OFFICIAL,Equinix press releases 2024-04-29 and 2024-12-03,Equinix,Other,Data Centers
+280,TagEnergy,,Equinix,,ENERGY_PPA,Renewable energy PPA Australia,,,151,MW,False,,2024-02-06,,projects operational by 2029,OFFICIAL,Equinix press release 2024-02-06,Equinix,Other,Data Centers
+281,Lambda,,Equinix,,CUSTOMER,Data center lease / compute capacity,,,,,,,2023-12-01,,ongoing deployments from Dec 2023,OFFICIAL,Equinix press release 2023-12,Equinix,AI Clouds & Miners,Data Centers
+282,Foxconn,,NVIDIA,NVDA,CUSTOMER,Blackwell GPUs,,,10000,NVIDIA Blackwell GPUs,False,,,,,OFFICIAL,https://nvidianews.nvidia.com/news/foxconn-builds-ai-factory-in-partnership-with-taiwan-and-nvidia,Foxconn,Semis & Systems,Semis & Systems
+283,Foxconn,,NVIDIA,NVDA,PLATFORM_INTEGRATION,compute capacity,,,,,,,,,,OFFICIAL,https://www.honhai.com/en-us/press-center/press-releases/latest-news/1545,Foxconn,Semis & Systems,Semis & Systems
+284,Foxconn,,TSMC,,CUSTOMER,compute capacity,,,,,,,,,,OFFICIAL,https://nvidianews.nvidia.com/news/foxconn-builds-ai-factory-in-partnership-with-taiwan-and-nvidia,Foxconn,Semis & Systems,Semis & Systems
+285,Foxconn,,Farglory Free Trade Zone,,LEASE,data center / factory lease,0.0228,True,,,,5,,,60 months,REPORTED,https://focustaiwan.tw/business/202507030006,Foxconn,Semis & Systems,Other
+286,Foxconn,,Albamen Capital Partners,,INVESTOR,renewables JV equity investment,0.3,True,,,,,,,,OFFICIAL,https://www.foxconn.com/en-us/press-center/press-releases/latest-news/1300,Foxconn,Semis & Systems,Other
+287,Foxconn,,Zettabyte,,INVESTOR,strategic partnership with capital funding,,,,,,,,,,OFFICIAL,https://www.foxconn.com/en-us/press-center/press-releases/latest-news/1499,Foxconn,Semis & Systems,Other
+288,Foxconn,,Dalfen Industrial,,INVESTOR,real-estate acquisition for AI supply chain,0.1421,False,,,,,,,,REPORTED,https://www.investing.com/news/company-news/ingrasys-technology-usa-acquires-houston-property-for-142m-93CH-3943888,Foxconn,Semis & Systems,Other
+289,Foxconn,,SoftBank,,SALE_LEASEBACK,asset sale - Lordstown plant,0.375,False,,,,,,,,REPORTED,https://www.reuters.com/business/autos-transportation/foxconn-agrees-375-mln-lordstown-plant-sale-pivot-towards-data-centres-2025-08-04/,Foxconn,Semis & Systems,Capital Providers
+290,Foxconn,,TECO Electric & Machinery,,INVESTOR,share exchange strategic alliance,,,,,,,,,,OFFICIAL,https://www.prnewswire.com/news-releases/teco-electric--machinery-and-hon-hai-technology-group-announce-strategic-alliance-targeting-ai-data-center-capabilities-302517160.html,Foxconn,Semis & Systems,Other
+291,GDS,,CapitaLand Ascendas REIT,,SALE_LEASEBACK,data center lease / property acquisition,0.081,False,,,,,,,,OFFICIAL,GDS press release via Data Center Dynamics,GDS,Data Centers,Other
+292,GDS,,Infocomm Media Development Authority,,CAPACITY_RESERVATION,compute capacity,,,20,MW,True,,,,,OFFICIAL,EDB and IMDA official announcement,GDS,Data Centers,Other
+293,GDS,,Coatue Management,,INVESTOR,Series B convertible preferred shares,1.2,True,,,,,,,,OFFICIAL,Company filings and press releases,GDS,Data Centers,Other
+294,GDS,,China Life Insurance Company Limited,,INVESTOR,Private REIT / ABS,0.25,True,,,,,,,,OFFICIAL,Company press release reported on Nasdaq,GDS,Data Centers,Other
+295,GDS,,Cenergi SEA Berhad,,ENERGY_PPA,Virtual Power Purchase Agreement (VPPA),,,22.5,MWac,False,21,2024-02-26,,21 years (VPPA term),OFFICIAL,Company press release on Data Center Dynamics,GDS,Data Centers,Other
+296,Google,GOOG,Anthropic,,INVESTOR,investment equity,2.0,False,,,,,,,,REPORTED,CNBC 2023-10-27,Google,Hyperscalers,Foundation Labs
+297,Google,GOOG,Anthropic,,INVESTOR,investment equity,1.0,True,,,,,,,,REPORTED,CNBC 2025-01-22,Google,Hyperscalers,Foundation Labs
+298,Google,GOOG,Anthropic,,INVESTOR,investment equity,0.3,False,,,,,,,,REPORTED,CNBC 2023-05-23,Google,Hyperscalers,Foundation Labs
+299,Google,GOOG,Anthropic,,CUSTOMER,compute capacity,,,,,,,,,multi-year,OFFICIAL,Anthropic press release 2023-02-03,Google,Hyperscalers,Foundation Labs
+300,Google,GOOG,OpenAI,,CUSTOMER,compute capacity,,,,,,,,,,REPORTED,CNBC 2025-07-16,Google,Hyperscalers,Hyperscalers
+301,Google,GOOG,Safe Superintelligence,,CUSTOMER,compute capacity,,,,,,,,,,REPORTED,TechCrunch 2025-04-09,Google,Hyperscalers,Other
+302,Google,GOOG,Reddit,,CONTENT_LICENSING,data/content licensing,0.06,True,,,,,,,multi-year,REPORTED,Reuters 2024-02-22,Google,Hyperscalers,Other
+303,Google,GOOG,Stack Overflow,,CONTENT_LICENSING,data access + product integrations,,,,,,,,,,REPORTED,TechCrunch 2024-02-29,Google,Hyperscalers,Other
+304,Google,GOOG,Character.AI,,CONTENT_LICENSING,technology license,2.6,True,,,,,,,,REPORTED,Washington Post 2024-08-02,Google,Hyperscalers,Other
+305,Google,GOOG,Ørsted,,ENERGY_PPA,wind power,,,150,MW,False,15,,,,OFFICIAL,PRNewswire 2023-04-03,Google,Hyperscalers,Other
+306,Google,GOOG,ENGIE,,ENERGY_PPA,solar power,,,90,MW,False,,,,,REPORTED,GlobeNewswire 2024-10-24,Google,Hyperscalers,Other
+307,Google,GOOG,Apex Clean Energy,,ENERGY_PPA,wind power,,,79.3,MW,False,,,,,OFFICIAL,DataCenterDynamics 2024-12-18,Google,Hyperscalers,Other
+308,Google,GOOG,Brookfield Renewable,,ENERGY_PPA,hydro power,3.0,True,3000,MW,True,20,,,initial 20-year PPAs,REPORTED,FT 2025-07-15,Google,Hyperscalers,Other
+309,Google,GOOG,Baseload Capital,,ENERGY_PPA,geothermal power,,,10,MW,False,,,,,OFFICIAL,Google blog 2025-04-15,Google,Hyperscalers,Other
+310,Google,GOOG,NVIDIA,NVDA,CUSTOMER,GPU purchase,,,50000,H100 GPUs,True,,,,,ANALYST,Tom's Hardware 2023-11-29,Google,Hyperscalers,Semis & Systems
+311,Google,GOOG,Hugging Face,,INVESTOR,Series D investment,0.235,False,,,,,,,,REPORTED,TechCrunch 2023-08-24,Google,Hyperscalers,Other
+312,Google,GOOG,Runway,,INVESTOR,Series C extension,0.141,False,,,,,,,,OFFICIAL,Runway 2023-06-29,Google,Hyperscalers,Other
+313,Google,GOOG,Intersect Power,,INVESTOR,clean energy funding,0.8,True,,,,,,,,REPORTED,Reuters 2024-12-10,Google,Hyperscalers,Other
+314,Google,GOOG,NVIDIA,NVDA,VENDOR_FINANCING,Cloud credits for startups,,,350000,USD credits per startup,False,,,,,REPORTED,Investopedia 2024-04-09,Google,Hyperscalers,Semis & Systems
+315,Hewlett Packard Enterprise,,Taiga Cloud,,CUSTOMER,GPU purchase,0.36,False,8200,NVIDIA H100 GPUs,True,,,,,OFFICIAL,northerndata.de press release,Hewlett Packard Enterprise,Semis & Systems,Other
+316,Hewlett Packard Enterprise,,Soluna AL CloudCo,,CUSTOMER,Compute capacity (GreenLake services),0.034,False,,,,3,2024-06-18,2027-06-18,36 months,OFFICIAL,SEC filing / company notices,Hewlett Packard Enterprise,Semis & Systems,Other
+317,Hewlett Packard Enterprise,,Hut 8,,CUSTOMER,GPU / supercomputer sale (AI systems),0.04,True,1000,NVIDIA H100 GPUs,True,,,,,REPORTED,GlobeNewswire / CRN,Hewlett Packard Enterprise,Semis & Systems,AI Clouds & Miners
+318,Hewlett Packard Enterprise,,Advizex,,VENDOR_FINANCING,Vendor financing,0.04,True,,,,,,,,REPORTED,CRN,Hewlett Packard Enterprise,Semis & Systems,Other
+319,Hewlett Packard Enterprise,,Aleph Alpha,,INVESTOR,Investment equity,,,,,,,,,,COMPANY,HPE blog / press,Hewlett Packard Enterprise,Semis & Systems,Other
+320,Hewlett Packard Enterprise,,Aleph Alpha,,CONTENT_LICENSING,model licensing for GreenLake,,,,,,,,,,OFFICIAL,HPE press release,Hewlett Packard Enterprise,Semis & Systems,Other
+321,Hewlett Packard Enterprise,,NVIDIA,NVDA,PLATFORM_INTEGRATION,Compute offering partnership (go-to-market),,,,,,,,,,REPORTED,Market coverage,Hewlett Packard Enterprise,Semis & Systems,Semis & Systems
+322,Hewlett Packard Enterprise,,Leibniz Supercomputing Centre,,CUSTOMER,Compute capacity (national supercomputer contract),0.28,False,,,,8,2024-12-13,2032-12-13,Includes operation costs through 2032,OFFICIAL,LRZ / HPE press,Hewlett Packard Enterprise,Semis & Systems,Other
+323,Hewlett Packard Enterprise,,Lawrence Livermore National Laboratory,,CUSTOMER,Compute capacity (exascale supercomputer build),0.6,True,,,,,,,,REPORTED,Axios / reporting,Hewlett Packard Enterprise,Semis & Systems,Other
+324,Hewlett Packard Enterprise,,Korea Institute of Science and Technology Information,,CUSTOMER,Compute capacity (national supercomputer contract),,,,,,,,,,REPORTED,GovConExec summary / HPE,Hewlett Packard Enterprise,Semis & Systems,Other
+325,Hewlett Packard Enterprise,,QScale,,LEASE,Data center lease / colocation,,,,,,,,,,OFFICIAL,HPE press release,Hewlett Packard Enterprise,Semis & Systems,Other
+326,Hut 8,,Hewlett Packard Enterprise,,OTHER,Data center procurement / system integration,,,,,,,,,,OFFICIAL,globenewswire.com press release,Hut 8,AI Clouds & Miners,Semis & Systems
+327,Hut 8,,BITMAIN Technologies,,CUSTOMER,ASIC colocation with purchase option,0.135,True,15,EH/s ASIC miners,True,,2024-09-19,,hosting + purchase option exercisable within 6 months of energization,OFFICIAL,globenewswire.com press release,Hut 8,AI Clouds & Miners,Other
+328,Hut 8,,BITMAIN Technologies,,CUSTOMER,ASIC fleet upgrade purchase agreement,,,31145,BITMAIN Antminer S21+ miners,False,,2025-01-01,,Delivery expected early Q1 2025,OFFICIAL,nasdaq.com press release,Hut 8,AI Clouds & Miners,Other
+329,Hut 8,,BITMAIN Technologies,,REPURCHASE,Vendor financing with pledged Bitcoin collateral,0.0924,False,968,BTC,False,,2024-12-31,2025-03-31,redemption period amended into 2025,OFFICIAL,SEC 10-K and 10-Q filings,Hut 8,AI Clouds & Miners,Other
+330,Coatue Management,,Hut 8,,INVESTOR,Convertible note strategic funding,0.15,False,,,,5,2024-06-24,2029-06-24,5-year initial term with 3 optional 1-year extensions,OFFICIAL,hut8.com press release,Hut 8,Other,AI Clouds & Miners
+331,"Anchorage Lending CA, LLC",,Hut 8,,REPURCHASE,Debt-to-equity conversion,0.038,True,,,,,2024-10-01,2024-10-01,"conversion completed Oct 1, 2024",OFFICIAL,hut8 corporate press release,Hut 8,Other,AI Clouds & Miners
+332,Hut 8,,Ionic Digital,,CUSTOMER,Managed services and equity stake,0.006378,False,374261,Ionic Digital shares,False,4,2024-02-01,2028-02-01,4 years managed services,OFFICIAL,globenewswire.com press release,Hut 8,AI Clouds & Miners,Other
+333,Inspur Information,,A3 Capital,,OTHER,Data-center cooperation / development partnership,,,,,,,,,,OFFICIAL,prnewswire.com press release,Inspur Information,Other,Other
+334,Inspur Information,,NVIDIA,NVDA,CUSTOMER,GPU purchase / systems integration,,,,,,2,2024-01-01,2025-12-31,2024–2025,REPORTED,Reuters; aivres.com product pages,Inspur Information,Other,Semis & Systems
+335,Inspur Information,,Megaspeed,,CUSTOMER,GPU resale / suspected onward supply,2.0,True,,,,,,,,REPORTED,Tom's Hardware and unblockmedia investigations,Inspur Information,Other,Other
+336,Inspur Information,,MFH Cayman,,CUSTOMER,Server procurement / sale (AI servers),0.002,False,,,,,2024-09-01,,"contract date Sept 1, 2024",OFFICIAL,Mercurity Fintech SEC/Form 20-F filing,Inspur Information,Other,Other
+337,Intel,,IBM,IBM,CUSTOMER,Gaudi 3 AI accelerators,,,,,,,,,GA availability early 2025,OFFICIAL,Intel press release,Intel,Semis & Systems,Hyperscalers
+338,Intel,,DigitalBridge,,INVESTOR,"equity funding, spin-out Articul8 AI",,,,,,,,,,REPORTED,Reuters,Intel,Semis & Systems,Other
+339,Intel,,Silver Lake,,MNA,51% controlling stake sale of Altera FPGA business,8.75,False,,,,,2025-04-14,,closing expected H2 2025,OFFICIAL,Intel press release,Intel,Semis & Systems,Other
+340,Intel,,Hugging Face,,INVESTOR,Series D strategic equity investment,0.235,False,,,,,,,,REPORTED,Axios,Intel,Semis & Systems,Other
+341,Intel,,Bloom Energy,,SALE_LEASEBACK,PPA interest sale,0.0069,False,,,,15,,,~15 years underlying PPA term,OFFICIAL,Bloom SEC filing,Intel,Semis & Systems,Other
+342,Intel,,United States Department of Commerce,,INVESTOR,government CHIPS grants conversion to equity,8.8698,True,,,,5,2025-08-22,,five-year warrant exercisable,OFFICIAL,Intel press release & Form 8-K,Intel,Semis & Systems,Other
+343,Intel,,Intel Capital,,OTHER,spin-off of Intel Capital venture arm,,,,,,,,,new firm expected to commence operations H2 2025,REPORTED,Reuters,Intel,Semis & Systems,Other
+344,NVIDIA,NVDA,Intel,INTC,INVESTOR,strategic equity investment and tech collaboration,5.0,False,,,,,,,,REPORTED,CNBC,Intel,Semis & Systems,Semis & Systems
+345,Inventec,,AMD,AMD,INVESTOR,equity acquisition participation,0.411,True,,,,,2024-08-27,2025-03-31,one-time equity sale,OFFICIAL,"company announcement, company disclosure, digitimes.com",Inventec,Semis & Systems,Semis & Systems
+346,Inventec,,NVIDIA,NVDA,CUSTOMER,OEM manufacturing for NVIDIA AI racks (GB200/GB300 AI servers),,,,,,,2024-01-01,2025-12-31,multi-year OEM manufacturing and supply,REPORTED,"Financial Times, NVIDIA press release",Inventec,Semis & Systems,Semis & Systems
+347,Inventec,,Two IC design companies,,CONTENT_LICENSING,VectorMesh NPU IP licensing,,,,,,,2023-07-01,,ongoing licensing and adoption from H2 2023,COMPANY,inventec corporate website,Inventec,Semis & Systems,Other
+348,Inventec,,AMD,AMD,MNA,manufacturing asset acquisition attempt (withdrew),3.5,True,,,,,2025-04-01,2025-05-19,M&A bid process April–May 2025,REPORTED,"jakotaindex.com, Reuters",Inventec,Semis & Systems,Semis & Systems
+349,Iris Energy,,NVIDIA,NVDA,CUSTOMER,H100 GPUs,0.01,True,248,H100 GPUs,False,,,,,OFFICIAL,Iris Energy press release via GlobeNewswire,Iris Energy,AI Clouds & Miners,Semis & Systems
+350,Iris Energy,,Poolside AI,,CUSTOMER,H100 GPU cloud compute capacity,,,248,H100 GPUs,False,,2024-02-05,,3 months + 3-month extension option,OFFICIAL,Iris Energy press release,Iris Energy,AI Clouds & Miners,Other
+351,Iris Energy,,NVIDIA,NVDA,CUSTOMER,H100 GPUs,0.022,False,568,H100 GPUs,False,,,,,OFFICIAL,Iris Energy press release,Iris Energy,AI Clouds & Miners,Semis & Systems
+352,Iris Energy,,Poolside AI,,CUSTOMER,H100 GPU cloud compute capacity,,,504,H100 GPUs,False,,2024-04-15,,"+4 months from mid-Apr 2024, +2-month option",OFFICIAL,Iris Energy press release,Iris Energy,AI Clouds & Miners,Other
+353,Iris Energy,,AEP Texas,,ENERGY_PPA,Power capacity,,,750,MW,False,,,,,OFFICIAL,Iris Energy press release,Iris Energy,AI Clouds & Miners,Other
+354,Iris Energy,,NVIDIA,NVDA,CUSTOMER,H200 GPUs,0.0439,False,1080,H200 GPUs,False,,,,,OFFICIAL,Iris Energy press release,Iris Energy,AI Clouds & Miners,Semis & Systems
+355,Iris Energy,,NVIDIA,NVDA,CUSTOMER,Blackwell B200/B300 GPUs,0.13,True,2400,Blackwell B200/B300 GPUs,False,,,,,OFFICIAL,Iris Energy press release,Iris Energy,AI Clouds & Miners,Semis & Systems
+356,Iris Energy,,NVIDIA,NVDA,CUSTOMER,B300 and GB300 (NVL72) GPUs,0.168,True,2400,B300 and GB300 GPUs,False,,,,,OFFICIAL,Iris Energy press release,Iris Energy,AI Clouds & Miners,Semis & Systems
+357,Iris Energy,,NVIDIA,NVDA,CUSTOMER,Blackwell B200 GPUs,0.193,True,4200,Blackwell B200 GPUs,False,,,,,OFFICIAL,Iris Energy press release,Iris Energy,AI Clouds & Miners,Semis & Systems
+358,Iris Energy,,NVIDIA,NVDA,CUSTOMER,B300 and B200 GPUs,0.674,True,11300,NVIDIA B300 and B200 GPUs,False,,,,,OFFICIAL,Iris Energy press release,Iris Energy,AI Clouds & Miners,Semis & Systems
+359,Iris Energy,,AMD,,CUSTOMER,AMD MI350X GPUs,0.674,True,1100,AMD MI350X GPUs,False,,,,,OFFICIAL,Iris Energy press release,Iris Energy,AI Clouds & Miners,Semis & Systems
+360,JCET,,SanDisk Semiconductor,,INVESTOR,acquisition,0.659,True,,,,,2024-09-28,,Permanent equity (majority stake),REPORTED,Reuters + WDC SEC filings,JCET,Semis & Systems,Other
+361,Western Digital,WDC,SanDisk Semiconductor,,CUSTOMER,supply agreement,0.55,False,550000000,USD per year,False,5,2024-09-28,2029-09-28,5 years,REPORTED,WDC SEC filings,JCET,Other,Other
+362,Western Digital,WDC,SanDisk Semiconductor,,CONTENT_LICENSING,intellectual property rights,,,,,,5,2024-09-28,2029-09-28,5 years,REPORTED,WDC SEC filings,JCET,Other,Other
+363,Pan Shi Hong Kong,,JCET,,INVESTOR,equity stake change of control,1.6,True,,,,,,,Equity stake / control change,REPORTED,SOHU + SCMP reports,JCET,Other,Semis & Systems
+364,JCET,,Western Digital,WDC,VENDOR_FINANCING,installment payment schedule,0.659,False,,,,5,2024-10-01,2029-09-28,"Installment payments through Sept 28, 2029",REPORTED,WDC SEC filings,JCET,Semis & Systems,Other
+365,KDDI,,Sharp,,LEASE,AI data center site acquisition,,,,,,,2024-03-31,2026-03-31,commence construction by end-Mar-2025; full operation by end-Mar-2026,OFFICIAL,"KDDI newsroom press release June 3, 2024",KDDI,Data Centers,Other
+366,KDDI,,Supermicro,,VENDOR_FINANCING,GPU servers and cooling supply,,,,,,,,,,REPORTED,"DataCenterDynamics June 3, 2024",KDDI,Data Centers,Semis & Systems
+367,KDDI,,Datasection,,OTHER,Compute center operations partnership,,,,,,,,,,OFFICIAL,"KDDI newsroom press release June 3, 2024",KDDI,Data Centers,Other
+368,KDDI,,NVIDIA,NVDA,CUSTOMER,GPU purchase - GB200 NVL72 units,,,1000,GB200 NVL72 units,True,,,,,OFFICIAL,"KDDI newsroom press release June 3, 2024",KDDI,Data Centers,Semis & Systems
+369,KDDI,,Hewlett Packard Enterprise,HPE,CUSTOMER,Rack-scale system deployment with GB200 NVL72,,,,,,,2025-04-01,2026-03-31,"FY2025 timeframe, early 2026",OFFICIAL,"HPE press release June 26, 2025",KDDI,Data Centers,Semis & Systems
+370,KDDI,,Sakura Internet,,OTHER,GPU mutual-use system (MOU) with Hi-Res,,,,,,,,,,REPORTED,"DataCenterDynamics April 17, 2025",KDDI,Data Centers,Other
+371,KDDI,,Electric Power Development,,ENERGY_PPA,"Virtual PPA for wind farm (New Minami Osumi, 19.5 MW)",,,19.5,MW,False,20,2024-12-27,2044-12-27,20 years,OFFICIAL,"KDDI newsroom release Jan 30, 2025",KDDI,Data Centers,Other
+372,KDDI,,Electric Power Development,,ENERGY_PPA,"Virtual PPA for wind farm (Kaminokuni, 51.5 MW)",,,51.5,MW,False,20,2025-04-01,2045-04-01,20 years,REPORTED,"Industry report DataCenterDynamics April 1, 2025",KDDI,Data Centers,Other
+373,KDDI,,Gunma Prefecture,,ENERGY_PPA,PPA solar power build & supply (17.4 MW),,,17.4,MW,False,,2026-01-01,2029-12-31,Commissioning scheduled 2026–2029,REPORTED,"Japan Energy Hub Nov 15, 2024",KDDI,Data Centers,Other
+374,KDDI,,Groq,,INVESTOR,Equity strategic investment via Open Innovation Fund III,0.64,False,,,,,,,,OFFICIAL,KDDI and Groq press releases August 2024,KDDI,Data Centers,Other
+375,KDDI,,RLWRLD,,INVESTOR,Seed round strategic equity investment,0.0148,False,,,,,,,,REPORTED,"TechCrunch report April 14, 2025",KDDI,Data Centers,Other
+376,KDDI,,Microsoft,MSFT,CONTENT_LICENSING,Azure OpenAI service distribution and consulting,,,,,,,,,,OFFICIAL,"KDDI newsroom Sept 5, 2023 and customer story May 26, 2025",KDDI,Data Centers,Hyperscalers
+377,KDDI,,Amazon,AMZN,CUSTOMER,Cloud compute for AI product development (Amazon Bedrock),,,,,,,,,,COMPANY,"KDDI group news Jan 9, 2024",KDDI,Data Centers,Hyperscalers
+378,KKR,,Energy Capital Partners,,INVESTOR,strategic partnership,50.0,False,,,,,,,,OFFICIAL,ecpgp.com press release,KKR,Capital Providers,Other
+379,KKR,,Energy Capital Partners,,LEASE,data center development,4.0,True,190,MW hyperscale data center campus,False,,2025-07-30,,Phase 1 IT capacity 144 MW; expected expansion,OFFICIAL,ecpgp.com and kirkland.com press releases,KKR,Capital Providers,Other
+380,KKR,,Calpine,,ENERGY_PPA,power supply,,,,,,,2025-07-30,,Long-term / dedicated supply,OFFICIAL,cyrusone.com press release,KKR,Capital Providers,Other
+381,KKR,,ST Telemedia Global Data Centres,,INVESTOR,investment equity,1.3,True,,,,,,,,OFFICIAL,sttelemediagdc.com press release + Reuters,KKR,Capital Providers,Other
+382,KKR,,Nxera,,INVESTOR,equity stake,0.8,True,,,,4,2023-09-18,2027-12-31,Option to increase stake to 25% by 2027,OFFICIAL,nxera-dc.com announcement,KKR,Capital Providers,Other
+383,KKR,,CoolIT Systems,,MNA,acquisition liquid cooling,0.305,False,,,,,,,,OFFICIAL,clearygottlieb.com announcement,KKR,Capital Providers,Other
+384,KKR,,Global Technical Realty,,LEASE,site acquisition AI/hyperscale data center,,,16,MW IT load,True,,2023-07-01,2023-08-31,Site acquisition,OFFICIAL,globaltechnicalrealty.com announcement,KKR,Capital Providers,Other
+385,KKR,,Global Technical Realty,,LEASE,data center delivery handover,,,13.5,MW build-to-suit capacity,False,,2024-07-03,,Phase 2 building handover delivered,OFFICIAL,datacenterdynamics.com report,KKR,Capital Providers,Other
+386,KKR,,ST Telemedia Global Data Centres,,MNA,potential acquisition,5.0,True,,,,,,,,REPORTED,Reuters report,KKR,Capital Providers,Other
+387,Macquarie,,Lambda,,SECURED_DEBT,GPU-backed facility,0.5,False,,,,,,,,REPORTED,Reuters,Lambda,Capital Providers,AI Clouds & Miners
+388,Supermicro,,Lambda,,LEASE,data center lease (sublease),0.6,False,21,MW,False,10,2024-06-21,,10 years,REPORTED,MarketWatch,Lambda,Semis & Systems,AI Clouds & Miners
+389,Aligned Data Centers,,Lambda,,LEASE,data center lease,,,,,,,,,,OFFICIAL,GlobNewswire press release,Lambda,Data Centers,AI Clouds & Miners
+390,EdgeConneX,,Lambda,,LEASE,build-to-suit data center lease,,,30,MW,True,,,,,REPORTED,DataCenterDynamics,Lambda,Data Centers,AI Clouds & Miners
+391,Cologix,,Lambda,,LEASE,data center lease/deployment,,,,,,,,,,OFFICIAL,GlobNewswire press release,Lambda,Other,AI Clouds & Miners
+392,Energy Cloud Labs,,Lambda,,LEASE,data center lease,,,1,GW,False,,,,,OFFICIAL,BusinessWire press release,Lambda,Other,AI Clouds & Miners
+393,Lambda,,NVIDIA,NVDA,LEASE,compute capacity,1.5,False,18000,GPUs,True,4,2025-09-08,,4 years,REPORTED,DataCenterDynamics,Lambda,AI Clouds & Miners,Semis & Systems
+394,Supermicro,SMCI,Lambda,,OTHER,GPU purchase/deployment,,,,,,,,,,OFFICIAL,Supermicro IR,Lambda,Semis & Systems,AI Clouds & Miners
+395,JPMorgan,,Lambda,,SECURED_DEBT,senior secured credit facility,0.275,False,,,,,,,,OFFICIAL,FinancialContent,Lambda,Capital Providers,AI Clouds & Miners
+396,US Innovative Technology Fund,,Lambda,,INVESTOR,Series C equity funding,0.32,False,,,,,,,,OFFICIAL,SDxCentral,Lambda,Other,AI Clouds & Miners
+397,Andra Capital,,Lambda,,INVESTOR,Series D equity funding,0.48,False,,,,,,,,REPORTED,DataCenterDynamics,Lambda,Other,AI Clouds & Miners
+398,Midjourney,,Lambda,,CUSTOMER,compute capacity reserved,,,,,,1,2025-09-04,,1 year,REPORTED,The Information,Lambda,Other,AI Clouds & Miners
+399,NVIDIA,NVDA,Lambda,,OTHER,GPU supply,,,,,,,,,,OFFICIAL,NVIDIA press release,Lambda,Semis & Systems,AI Clouds & Miners
+400,Mercato Partners,,Lambda,,INVESTOR,Series B equity funding,0.044,False,,,,,,,,REPORTED,DataCenterDynamics,Lambda,Other,AI Clouds & Miners
+401,Lenovo,,Digital Realty,,LEASE,Data center lease / colocation partnership,,,,,,,2024-05-15,,Not disclosed,OFFICIAL,datacenterdynamics.com,Lenovo,Semis & Systems,Data Centers
+402,Lenovo,,Cisco Systems,,OTHER,Compute capacity / infrastructure MoU,,,,,,,2024-05-30,,MoU (term not disclosed),OFFICIAL,newsroom.cisco.com,Lenovo,Semis & Systems,Semis & Systems
+403,Lenovo,,Databricks,,CONTENT_LICENSING,Content / software licensing & services partnership,,,,,,,2024-07-31,,Regional rollout; commercial terms not disclosed,OFFICIAL,news.lenovo.com,Lenovo,Semis & Systems,Other
+404,Lenovo,,NetApp,,CUSTOMER,Compute solution / GPU (OEM solution),,,,,,,2024-05-14,,Solution release; commercial terms not disclosed,OFFICIAL,netapp.com,Lenovo,Semis & Systems,Other
+405,Lenovo,,Alat,,INVESTOR,Investment — equity / convertible bond,2.0,False,,,,3,2025-01-01,2028-01-01,Three-year zero-coupon convertible bond,REPORTED,arabnews.com,Lenovo,Semis & Systems,Other
+406,Lenovo,,Synchrony,,VENDOR_FINANCING,"Vendor financing (checkout financing, lease-to-own)",,,,,,,,,Ongoing program with multiple lenders,OFFICIAL,lenovo.com,Lenovo,Semis & Systems,Other
+407,Lenovo,,Nyonic,,INVESTOR,Investment — equity (venture),0.03,True,,,,,2023-07-13,,Seed round,COMPANY,capital.lenovo.com,Lenovo,Semis & Systems,Other
+408,Marathon Digital,MARA,GC Data Center Equity Holdings / Generate Capital,,MNA,Data center acquisition,0.179,False,390,MW,True,,,,,OFFICIAL,Marathon Digital press release and SEC filings,Marathon Digital,AI Clouds & Miners,Other
+409,Marathon Digital,MARA,Applied Digital,APLD,MNA,Data center acquisition,0.0873,True,,,,,,,,OFFICIAL,Marathon Digital press release and SEC filings,Marathon Digital,AI Clouds & Miners,AI Clouds & Miners
+410,Marathon Digital,MARA,Arkon Energy US Holdco,,MNA,Data center acquisition,0.077,False,372,MW,True,1,2024-11-05,2025-11-05,contingent earnout up to 1 year,OFFICIAL,Marathon Digital press release and SEC filings,Marathon Digital,AI Clouds & Miners,Other
+411,Marathon Digital,MARA,Great Plains Wind Park Holdings,,MNA,Power asset acquisition,0.0492,False,240,MW,True,,,,,OFFICIAL,Marathon Digital SEC filings and press release,Marathon Digital,AI Clouds & Miners,Other
+412,Marathon Digital,MARA,Zero Two (FS Innovation),,REVENUE_SHARE,Joint venture / immersion cooled mining facilities,0.406,True,250,MW,False,2,2023-05-09,2024-12-31,multi-year project buildout 2023–2024,OFFICIAL,Marathon Digital press release,Marathon Digital,AI Clouds & Miners,Other
+413,Marathon Digital,MARA,Penguin Infrastructure Holding,,REVENUE_SHARE,Joint venture / hydro-powered mining project,,,27,MW,False,1,2023-11-07,2024-12-31,project development / ramp 2023–2024,OFFICIAL,Marathon Digital press releases,Marathon Digital,AI Clouds & Miners,Other
+414,Marathon Digital,MARA,Hut 8,HUT,CUSTOMER,Hosting / colocation,,,68200,miners,False,1,2023-01-01,2023-12-31,hosting as of 2023 year end,OFFICIAL,Hut 8 SEC filings,Marathon Digital,AI Clouds & Miners,AI Clouds & Miners
+415,Marathon Digital,MARA,Applied Digital,APLD,REVENUE_SHARE,Hosting prepayments / revenue backlog,0.1481,False,,,,1,2024-06-01,2025-05-31,fiscal year 2024 recognized hosting revenue backlog,OFFICIAL,Applied Digital SEC filings,Marathon Digital,AI Clouds & Miners,AI Clouds & Miners
+416,Marvell Technology Group Holdings Ltd.,,Amazon,,CUSTOMER,compute capacity,,,,,,,,,,OFFICIAL,Marvell press release via investor.marvell.com,Marvell,Other,Hyperscalers
+417,Marvell Technology Group Holdings Ltd.,,Amazon,,CUSTOMER,AI hardware supply,,,,,,5,2024-12-02,2029-12-02,five-year,OFFICIAL,Marvell press release via marvell.com,Marvell,Other,Hyperscalers
+418,Marvell Technology Group Holdings Ltd.,,Micron,,VENDOR_FINANCING,custom HBM collaboration,,,,,,,,,,OFFICIAL,Marvell press release via marvell.com,Marvell,Other,Semis & Systems
+419,Marvell Technology Group Holdings Ltd.,,Samsung Electronics,,VENDOR_FINANCING,custom HBM collaboration,,,,,,,,,,OFFICIAL,Marvell press release via marvell.com,Marvell,Other,Semis & Systems
+420,Marvell Technology Group Holdings Ltd.,,SK Hynix,,VENDOR_FINANCING,custom HBM collaboration,,,,,,,,,,OFFICIAL,Marvell press release via marvell.com,Marvell,Other,Other
+421,Marvell Technology Group Holdings Ltd.,,TSMC,,FOUNDRY_LTSA,sub-3nm process & silicon photonics,,,,,,,,,,REPORTED,Industry reports on trendforce.com,Marvell,Other,Semis & Systems
+422,Marvell Technology Group Holdings Ltd.,,Marvell shareholders,,REPURCHASE,stock repurchase authorization,3.0,False,,,,,,,,OFFICIAL,Marvell press release via investor.marvell.com,Marvell,Other,Other
+423,Meta,,NVIDIA,NVDA,CUSTOMER,H100 GPUs,,,350000,H100 GPUs,False,,,,,REPORTED,CNBC 2024-01-18,Meta,Hyperscalers,Semis & Systems
+424,Meta,,NVIDIA,NVDA,CUSTOMER,Blackwell GPUs,,,,,,,,,,REPORTED,Reuters 2025-03-19,Meta,Hyperscalers,Semis & Systems
+425,Meta,,Oracle,,CUSTOMER,AI compute capacity,,,,,,,,,,OFFICIAL,DataCenterDynamics 2024-12-13,Meta,Hyperscalers,Hyperscalers
+426,Meta,,Merlin Properties,,LEASE,Data center lease,,,3,MW,False,5,,,5–15 years,REPORTED,DataCenterDynamics 2024-02-02,Meta,Hyperscalers,Other
+427,Meta,,RWE,,ENERGY_PPA,200 MW Waterloo Solar (TX),,,200,MW,False,,,,Long-term,OFFICIAL,RWE press release 2025-03-18,Meta,Hyperscalers,Other
+428,Meta,,Enel North America,,ENERGY_PPA,115 MW Rockhaven wind farm (OK),,,115,MW,False,,,,Long-term,OFFICIAL,Enel press release 2025-02-04,Meta,Hyperscalers,Other
+429,Meta,,The AES Corporation,,ENERGY_PPA,"650 MW solar capacity in SPP (TX, KS)",,,650,MW,False,,,,Long-term,OFFICIAL,PR Newswire 2025-05-21,Meta,Hyperscalers,Other
+430,Meta,,Sage Geosystems,,ENERGY_PPA,150 MW geothermal project,,,150,MW,False,,,,,REPORTED,Reuters 2024-08-26,Meta,Hyperscalers,Other
+431,Meta,,ENGIE,,ENERGY_PPA,260 MW Environmental Attributes Purchase Agreement Sypert Branch Solar (TX),,,260,MW,False,,,,,OFFICIAL,GlobeNewswire 2024-10-31,Meta,Hyperscalers,Other
+432,Meta,,PIMCO,,SECURED_DEBT,Collateral loan for Hyperion data center expansion,29.0,True,,,,,,,,REPORTED,Reuters 2025-08-08,Meta,Hyperscalers,Capital Providers
+433,Meta,,Apollo,,SECURED_DEBT,Collateral loan talk for US data centers,35.0,True,,,,,,,,REPORTED,Reuters 2025-02-27,Meta,Hyperscalers,Capital Providers
+434,Meta,,Scale AI,,INVESTOR,Equity investment (49% stake),14.9,True,,,,,,,,REPORTED,CNBC 2025-06-10,Meta,Hyperscalers,Other
+435,Meta,,Amazon,,REVENUE_SHARE,Llama model hosting,,,,,,,,,,REPORTED,TechCrunch 2025-03-21,Meta,Hyperscalers,Hyperscalers
+436,Meta,,Microsoft,,REVENUE_SHARE,Llama model hosting,,,,,,,,,,REPORTED,TechCrunch 2025-03-21,Meta,Hyperscalers,Hyperscalers
+437,Meta,,Google,,REVENUE_SHARE,Llama model hosting,,,,,,,,,,REPORTED,TechCrunch 2025-03-21,Meta,Hyperscalers,Hyperscalers
+438,Meta,,Snowflake,,REVENUE_SHARE,Llama model hosting,,,,,,,,,,REPORTED,TechCrunch 2025-03-21,Meta,Hyperscalers,Other
+439,Meta,,Databricks,,REVENUE_SHARE,Llama model hosting,,,,,,,,,,REPORTED,TechCrunch 2025-03-21,Meta,Hyperscalers,Other
+440,Meta,,Dell Technologies,,REVENUE_SHARE,Llama model hosting,,,,,,,,,,REPORTED,TechCrunch 2025-03-21,Meta,Hyperscalers,Semis & Systems
+441,Meta,,Groq,,REVENUE_SHARE,Llama model hosting,,,,,,,,,,REPORTED,TechCrunch 2025-03-21,Meta,Hyperscalers,Other
+442,Meta,,Reuters,,CONTENT_LICENSING,AI news content licensing,,,,,,,,,Multi-year,OFFICIAL,Reuters 2024-10-25,Meta,Hyperscalers,Other
+443,Meta,,Universal Music Group,,CONTENT_LICENSING,Music licensing agreement expanded,,,,,,,,,Multi-year,REPORTED,TechCrunch 2024-08-12,Meta,Hyperscalers,Other
+444,Micron,,NVIDIA,NVDA,CUSTOMER,HBM3E 24GB 8-high supply,,,,,,2,2024-01-01,2025-12-31,Supply allocations: calendar 2024 (sold out) and majority of 2025 allocated,OFFICIAL,Micron press release via GlobeNewswire 2024-02-26,Micron,Semis & Systems,Semis & Systems
+445,Micron,,AMD,AMD,CUSTOMER,HBM3E 36GB 12-high supply,,,,,,1,2025-06-12,,ongoing supply / product qualification,OFFICIAL,Micron press release via GlobeNewswire 2025-06-12,Micron,Semis & Systems,Semis & Systems
+446,Micron,,Terra-Gen,,ENERGY_PPA,15-year virtual power purchase agreement for 178 MW wind capacity,,,178,MW,True,15,,,15 years,OFFICIAL,Micron investor news via GlobeNewswire 2023-06-08,Micron,Semis & Systems,Other
+447,Micron,,Sembcorp,,ENERGY_PPA,18-year solar rooftop power purchase agreement,,,36000,solar panels,True,18,,,18 years,REPORTED,Sembcorp press release 2024-09-26,Micron,Semis & Systems,Other
+448,Micron,,Idaho Power,,ENERGY_PPA,"20-year solar facility power purchase agreement, 40 MW capacity",,,40,MW,True,20,2023-05-01,,20 years,OFFICIAL,Micron SEC filings through 2024,Micron,Semis & Systems,Other
+449,Micron,,U.S. Department of Commerce (CHIPS Program Office),,INVESTOR,CHIPS & Science Act funding for DRAM fabs,6.165,True,,,,,,,,OFFICIAL,U.S. Commerce Dept press release 2024-12-10,Micron,Semis & Systems,Other
+450,Micron,,Silvaco Group,,VENDOR_FINANCING,senior subordinated convertible promissory note,0.005,False,,,,3,2024-04-16,,3 years (maturity),OFFICIAL,SEC filing 2024-04-16,Micron,Semis & Systems,Other
+451,Micron,,HSBC Bank USA,,SECURED_DEBT,revolving credit facility,3.5,False,,,,5,2025-03-12,2030-03-12,"Matures March 12, 2030",OFFICIAL,SEC filing 2025-03-12,Micron,Semis & Systems,Other
+452,Micron,,NVIDIA,NVDA,PLATFORM_INTEGRATION,SOCAMM LPDDR5X modular memory product collaboration,,,,,,,2025-03-18,,"announced and volume production as of March 18, 2025",OFFICIAL,Micron press release 2025-03-18,Micron,Semis & Systems,Semis & Systems
+453,Microsoft,,NVIDIA,,CUSTOMER,GPU purchase,,,100000,H100 GPUs,True,1,2023-08-07,2024-08-07,next year,OFFICIAL,azure.microsoft.com blog,Microsoft,Hyperscalers,Semis & Systems
+454,Microsoft,,CoreWeave,,LEASE,compute capacity,,,,,,3,2023-05-01,2025-05-01,multi-year,REPORTED,cnbc.com,Microsoft,Hyperscalers,AI Clouds & Miners
+455,Microsoft,,Oracle,,PLATFORM_INTEGRATION,compute capacity,,,,,,1,2023-12-13,2024-12-13,multi-year,OFFICIAL,oracle.com press release,Microsoft,Hyperscalers,Hyperscalers
+456,Microsoft,,QTS Realty,,LEASE,data center lease,,,,,,15,2024-01-01,2039-12-31,minimum 15-year lease,REPORTED,datacenterdynamics.com,Microsoft,Hyperscalers,Data Centers
+457,Microsoft,,du,,LEASE,data center lease,0.54454,False,,,,,,,,REPORTED,datacenterdynamics.com,Microsoft,Hyperscalers,Other
+458,Microsoft,,Brookfield Renewable,,ENERGY_PPA,renewable power capacity,10.0,True,10.5,GW,False,5,2026-01-01,2030-12-31,2026–2030,OFFICIAL,globenewswire.com press release,Microsoft,Hyperscalers,Other
+459,Microsoft,,Constellation Energy,,ENERGY_PPA,nuclear power,,,835,MW,False,20,,,20 years,OFFICIAL,microsoft.com,Microsoft,Hyperscalers,Power & Energy
+460,Microsoft,,Helion Energy,,ENERGY_PPA,fusion power,,,50,MW,False,1,2028-01-01,2029-01-01,starts 2028; 1-year ramp,OFFICIAL,helionenergy.com,Microsoft,Hyperscalers,Other
+461,Microsoft,,EDP Renewables North America,,ENERGY_PPA,solar power,,,389,MW,False,,,,long-term,REPORTED,datacenterdynamics.com,Microsoft,Hyperscalers,Other
+462,Microsoft,,Energia,,ENERGY_PPA,onshore wind power,,,50,MW,False,,,,,REPORTED,datacenterdynamics.com,Microsoft,Hyperscalers,Other
+463,Microsoft,,SSE Renewables,,ENERGY_PPA,onshore wind power,,,30,MW,False,,,,long-term,OFFICIAL,sserenewables.com,Microsoft,Hyperscalers,Other
+464,Microsoft,,G42,,INVESTOR,investment equity,1.5,False,,,,,,,,OFFICIAL,news.microsoft.com,Microsoft,Hyperscalers,Other
+465,Microsoft,,Mistral,,INVESTOR,investment equity convertible,0.015,False,,,,,,,convertible; next round,REPORTED,cnbc.com,Microsoft,Hyperscalers,Foundation Labs
+466,Microsoft,,OpenAI,,INVESTOR,multiyear multibillion dollar investment,,,,,,7,2023-01-23,2030-12-31,through 2030,OFFICIAL,blogs.microsoft.com,Microsoft,Hyperscalers,Hyperscalers
+467,Microsoft,,OpenAI,,REVENUE_SHARE,revenue sharing arrangements,,,,,,7,2024-01-01,2030-12-31,through 2030,OFFICIAL,blogs.microsoft.com,Microsoft,Hyperscalers,Hyperscalers
+468,Microsoft,,OpenAI,,CUSTOMER,compute capacity exclusive cloud provider,,,,,,6,2019-01-01,2025-12-31,2019–2025 exclusive; ROFR thereafter,OFFICIAL,blogs.microsoft.com,Microsoft,Hyperscalers,Hyperscalers
+469,Microsoft,,London Stock Exchange Group,,CONTENT_LICENSING,LSEG-licensed financial data in Microsoft Copilot/agents,,,,,,,,,ongoing,OFFICIAL,news.microsoft.com,Microsoft,Hyperscalers,Other
+470,Mistral,,NVIDIA,NVDA,CUSTOMER,GPU compute capacity,0.55,True,18000,NVIDIA GPUs,False,,2026-01-01,,Phased deployment; operations begin 2026,REPORTED,Le Monde 2025-06-12,Mistral,Foundation Labs,Semis & Systems
+471,Mistral,,Fluidstack,,CUSTOMER,GPU compute capacity,,,,multi-GW infrastructure approx,True,,2025-06-01,,Multi-year; first tranche operational Summer 2025,REPORTED,Epicos 2025-03,Mistral,Foundation Labs,Other
+472,Mistral,,Eclairion,,LEASE,Data center hosting colocation,,,40,MW,False,,2025-02-17,,Multi-year hosting/colocation,REPORTED,Data Center Dynamics 2025-02-17,Mistral,Foundation Labs,Other
+473,Mistral,,MGX,,OTHER,Data-centre campus joint venture,,,1.4,GW,False,,2026-07-01,2028-12-31,Construction targeted H2 2026; operations by 2028,REPORTED,Data Center Dynamics 2025-05-20,Mistral,Foundation Labs,Other
+474,Mistral,,NVIDIA,NVDA,CUSTOMER,GPU compute supply via DGX Cloud Lepton,,,,,,,2025-06-11,,Ongoing multi-year marketplace participation,OFFICIAL,NVIDIA press release 2025-06-11,Mistral,Foundation Labs,Semis & Systems
+475,Microsoft,MSFT,Mistral,,INVESTOR,Convertible strategic investment & multi-year distribution,0.016,False,,,,,2024-02-26,,Multi-year distribution agreement,REPORTED,Reuters 2024-02-27,Mistral,Hyperscalers,Foundation Labs
+476,General Catalyst,,Mistral,,INVESTOR,Series B equity + debt,0.66,False,,,,,,,,REPORTED,TechCrunch 2024-06-11,Mistral,Other,Foundation Labs
+477,Andreessen Horowitz,,Mistral,,INVESTOR,Series A equity,0.423,False,,,,,,,,REPORTED,Wikipedia 2023-12-10,Mistral,Other,Foundation Labs
+478,Lightspeed Venture Partners,,Mistral,,INVESTOR,Seed equity,0.116,False,,,,,,,,REPORTED,Wikipedia 2023-06,Mistral,Other,Foundation Labs
+479,CMA CGM,,Mistral,,CUSTOMER,Strategic partnership and investment for AI deployment,0.108,False,,,,5,2025-04-07,2030-04-07,5 years,REPORTED,Reuters 2025-04-06,Mistral,Other,Foundation Labs
+480,Cerebras Systems,,Mistral,,CUSTOMER,Inference infrastructure supply,,,,,,,2025-02-06,,Ongoing inference supply,OFFICIAL,Cerebras 2025-02-06,Mistral,Other,Foundation Labs
+481,Agence France-Presse,,Mistral,,CONTENT_LICENSING,News content licensing for chatbot,,True,,,,,2025-01-16,,Ongoing content licensing,REPORTED,FT 2025-01-16,Mistral,Other,Foundation Labs
+482,Free Mobile,,Mistral,,CUSTOMER,Telco promotional bundling distribution,,,,,,1,2025-02-10,2026-02-10,12-month promotional entitlement,REPORTED,BFMTV 2025-02-10,Mistral,Other,Foundation Labs
+483,Scaleway,,Mistral,,VENDOR_FINANCING,Hardware supply for data center deployment,,,,,,,,,Multi-year hardware supply supporting cluster deployment,REPORTED,Data Center Dynamics 2025-02-27,Mistral,Other,Foundation Labs
+484,Morgan Stanley,,OpenAI,,CONTENT_LICENSING,Model access,,,,,,,2023-09-01,,Ongoing,REPORTED,Reuters,Morgan Stanley,Capital Providers,Hyperscalers
+485,Morgan Stanley,,CoreWeave,,SECURED_DEBT,Revolving credit facility,0.65,False,,,,,2024-10-11,,Revolving credit facility,OFFICIAL,PR Newswire,Morgan Stanley,Capital Providers,AI Clouds & Miners
+486,Morgan Stanley,,CoreWeave,,INVESTOR,IPO underwriting,1.5,True,,,,,2025-03-27,2025-03-28,IPO roadshow and launch,OFFICIAL,CoreWeave press release,Morgan Stanley,Capital Providers,AI Clouds & Miners
+487,Morgan Stanley,,Flexential,,INVESTOR,Strategic equity investment,,,,,,,,,,OFFICIAL,Morgan Stanley press release,Morgan Stanley,Capital Providers,Other
+488,Morgan Stanley,,UltraEdge,,INVESTOR,Majority stake acquisition,0.8365,True,,,,,,,,REPORTED,DataCenterDynamics,Morgan Stanley,Capital Providers,Other
+489,Morgan Stanley,,Torch Clean Energy,,INVESTOR,Strategic equity investment,,,,,,,,,,OFFICIAL,Morgan Stanley press release,Morgan Stanley,Capital Providers,Other
+490,Morgan Stanley,,xAI,,SECURED_DEBT,Debt underwriting / marketing,5.0,False,,,,,,,,REPORTED,Reuters,Morgan Stanley,Capital Providers,Foundation Labs
+491,Accel,,Nebius,,INVESTOR,private placement equity financing,0.7,False,,,,,,,,OFFICIAL,Nebius press release 2024-12-02,Nebius,Other,AI Clouds & Miners
+492,NVIDIA,,Nebius,,INVESTOR,private placement equity financing,0.7,False,,,,,,,,OFFICIAL,Nebius press release 2024-12-02,Nebius,Semis & Systems,AI Clouds & Miners
+493,Orbis Investments,,Nebius,,INVESTOR,private placement equity financing,0.7,False,,,,,,,,OFFICIAL,Nebius press release 2024-12-02,Nebius,Other,AI Clouds & Miners
+494,Nebius,,Microsoft,,CUSTOMER,compute capacity,17.4,True,,,,5,2025-09-08,2031-09-08,multi-year through 2031,REPORTED,Reuters 2025-09-08; SEC prospectus,Nebius,AI Clouds & Miners,Hyperscalers
+495,Nebius,,Microsoft,,CUSTOMER,compute capacity,19.4,True,,,,5,2025-09-08,2031-09-08,"multi-year through 2031, expandable",REPORTED,Reuters 2025-09-08; SEC prospectus,Nebius,AI Clouds & Miners,Hyperscalers
+496,Nebius,,DataOne,,ANCHOR_TENANT,data centre build-to-suit,,,300,MW,True,10,2025-03-06,,~10-year tenant commitment,REPORTED,Data Centre Magazine 2025-03-06,Nebius,AI Clouds & Miners,Other
+497,Nebius,,NVIDIA,,INVESTOR,strategic equity stake and partnership,,,,,,1,2024-12-02,2025-12-31,ongoing partnership through 2025,OFFICIAL,Nebius press release and Reuters 2024-12 to 2025-06,Nebius,AI Clouds & Miners,Semis & Systems
+498,Bezos Expeditions,,Toloka,,INVESTOR,subsidiary fundraising,0.072,False,,,,,,,,REPORTED,Reuters 2025-05-07,Nebius,Other,Other
+499,Nebius shareholders,,Nebius,,REPURCHASE,share repurchase authorization,,,81000000,Class A shares,False,0,2024-08-01,2024-12-02,"authorization Aug 2024; decision not to repurchase Dec 2, 2024",OFFICIAL,Nasdaq and Nebius press release 2024-08 and 2024-12,Nebius,Other,AI Clouds & Miners
+500,NextEra Energy,,Salt River Project,,ENERGY_PPA,Energy supply,,,430,MW,True,,,,,OFFICIAL,Google blog (March 2024),NextEra Energy,Power & Energy,Other
+501,NextEra Energy,,Salt River Project,,OTHER,AI energy management software licensing,,,,,,3,2024-01-01,2027-01-01,3 years,OFFICIAL,Public Power article (Q1 2024),NextEra Energy,Power & Energy,Other
+502,NextEra Energy,,Entergy,,OTHER,Joint development solar + storage,,,4.5,GW,False,5,2024-06-07,2029-06-07,5 years,REPORTED,Reuters (2024-06-07),NextEra Energy,Power & Energy,Other
+503,NextEra Energy,,Omaha Public Power District,,ENERGY_PPA,Capacity collaboration wind,,,600,MW,False,,,,,REPORTED,Public Power article (2024-05-14),NextEra Energy,Power & Energy,Other
+504,NextEra Energy,,GE Vernova,,OTHER,Strategic partnership gas-fired generation,,,,GW,True,4,2025-01-27,2029-01-27,Framework over next four years,REPORTED,Data Center Dynamics (2025-01-27),NextEra Energy,Power & Energy,Other
+505,NextEra Energy,,Wells Fargo Securities,,INVESTOR,Equity units sale,2.0,False,,,,3,2024-06-18,2027-06-01,stock purchase contracts approx. 3 years; debenture due 2029-06-01,REPORTED,Investing.com (2024-06),NextEra Energy,Power & Energy,Other
+506,Northern Data,,Tether Group,,SECURED_DEBT,debt financing,0.62,False,,,,6,2023-11-02,2030-01-01,"Facility maturity Jan 1, 2030",OFFICIAL,Northern Data press release,Northern Data,AI Clouds & Miners,Other
+507,Northern Data,,Damoon,,MNA,GPU-backed acquisition,0.44,False,10478826,shares,False,,2023-07-01,2024-01-03,Completed between July 2023 and January 2024,OFFICIAL,Northern Data press release,Northern Data,AI Clouds & Miners,Other
+508,Northern Data,,Supermicro,,CUSTOMER,GPU purchase,,,2000,NVIDIA H200 GPUs,False,,2024-07-01,2024-12-31,Delivery/deployment targeted Q4 2024,OFFICIAL,Northern Data press release,Northern Data,AI Clouds & Miners,Semis & Systems
+509,Northern Data,,Tether Investments Ltd.,,INVESTOR,capital increase backstop agreement,0.23,True,10699446,shares,False,,2024-07-15,,Placement steps July 2024,OFFICIAL,Northern Data press release,Northern Data,AI Clouds & Miners,Other
+510,Northern Data,,Maysville,,LEASE,data center site agreement,,,120,MW,False,,,2027-03-31,Operational target Q1 2027,OFFICIAL,Northern Data press release,Northern Data,AI Clouds & Miners,Other
+511,Northern Data,,Gcore,,REVENUE_SHARE,partnership Intelligence Delivery Network,,,,,,,,,,REPORTED,DataCenterDynamics reporting,Northern Data,AI Clouds & Miners,Other
+512,Northern Data,,Core42,,CAPACITY_RESERVATION,GPU access capacity agreement,,,10000,GPUs,True,,,,,REPORTED,DataCenterDynamics reporting,Northern Data,AI Clouds & Miners,Other
+513,Rumble,RUM,Northern Data,,MNA,acquisition offer,1.17,True,,,,,,,,REPORTED,Reuters reporting,Northern Data,Other,AI Clouds & Miners
+514,Northern Data,,Elektron Energy,,SALE_LEASEBACK,sale term sheet Peak Mining divestiture,0.235,False,,,,,,2025-12-31,Expected close second half 2025,REPORTED,DataCenterDynamics reporting,Northern Data,AI Clouds & Miners,Other
+515,Northern Data,,Damoon,,CUSTOMER,GPU hardware acquisition,0.44,False,18000,NVIDIA H100 Tensor Core GPUs,False,,2023-12-01,,"First deployments live Dec 2023, phased remaining deployments",OFFICIAL,Northern Data press release,Northern Data,AI Clouds & Miners,Other
+516,NRG Energy,,Renew Home,,CUSTOMER,AI-enabled residential virtual power plant,,,1,GW,True,,,,multi-year; rollout planned spring 2025,OFFICIAL,NRG press release,NRG Energy,Power & Energy,Other
+517,NRG Energy,,Google,,PLATFORM_INTEGRATION,AI technology for virtual power plant,,,1,GW,True,,,,multi-year; rollout planned spring 2025,OFFICIAL,NRG press release,NRG Energy,Power & Energy,Hyperscalers
+518,NRG Energy,,GE Vernova,,OTHER,Project development / PPA-power (EPC partnership),,,5.4,GW,False,,2029-01-01,2032-12-31,projects targeted 2029–2032; first 1.2 GW by 2029,OFFICIAL,BusinessWire press release,NRG Energy,Power & Energy,Other
+519,NRG Energy,,PowLan,,CUSTOMER,PPA power,,,0.5,GW,True,,2026-01-01,,initial development expected 2026; commercial terms TBD,OFFICIAL,DatacenterDynamics reported by NRG,NRG Energy,Power & Energy,Other
+520,NRG Energy,,Menlo Equities,,CUSTOMER,PPA power,,,0.3,GW,True,,2026-01-01,,initial development expected 2026; commercial terms TBD,OFFICIAL,DatacenterDynamics reported by NRG,NRG Energy,Power & Energy,Other
+521,NRG Energy,,LS Power Equity Advisors,,MNA,Equity purchase; power portfolio acquisition,12.0,True,,,,,,2026-03-31,transaction expected to close Q1 2026,OFFICIAL,NRG press release,NRG Energy,Power & Energy,Other
+522,NRG Energy,,LandBridge Company,,OTHER,PPA power / Project exploration,,,1.1,GW,True,,,,potential commercial ops by ~2029 if progressed,REPORTED,Power Magazine,NRG Energy,Power & Energy,Other
+523,NTT DOCOMO,,NVIDIA,NVDA,CUSTOMER,GPU-accelerated infrastructure for vRAN,,,,,,,,,,OFFICIAL,NVIDIA developer.nvidia.com,NTT,Other,Semis & Systems
+524,NTT DATA,,TEPCO Energy Partner,,ENERGY_PPA,renewable solar power,,,4.4,million kWh/year,False,20,,,20 years,OFFICIAL,sj.jst.go.jp,NTT,Other,Other
+525,NTT,,Toyota Motor Corporation,,INVESTOR,AI mobility platform development,3.27,True,,,,6,,2030-12-31,Through 2030,REPORTED,Reuters,NTT,Data Centers,Other
+526,NTT DATA,,OpenAI,,CONTENT_LICENSING,sales agent for ChatGPT Enterprise,0.75,True,,,,3,2025-05-01,2027-03-31,target to FY2027; ongoing partnership starting May 2025,OFFICIAL,nttdata.com,NTT,Other,Hyperscalers
+527,NTT DATA,,UPS,,LEASE,data center purchase and managed services,,,,,,10,,,10 years,OFFICIAL,us.nttdata.com,NTT,Other,Other
+528,NTT,,NTT DC REIT,,INVESTOR,REIT IPO,0.864,False,,,,,,,,REPORTED,Reuters,NTT,Data Centers,Other
+529,NTT Communications,,Mitsubishi Corporation,,OTHER,remote AI-powered GPU computing demo for pharmaceutical R&D,,,,,,,2025-02-01,,pilot / demonstration,REPORTED,timesofai.com,NTT,Other,Other
+530,NTT Anode Energy,,NEC Platforms,,ENERGY_PPA,100% renewable energy offsite PPA + direct power,,,,,,,2024-06-01,,ongoing supply from June 2024,OFFICIAL,itbusinessnet.com,NTT,Other,Other
+531,NTT DATA,,NTT,,INVESTOR,AI and data center capex program,59.0,False,,,,5,2023-04-01,2027-03-31,FY2023–FY2027,OFFICIAL,services.global.ntt,NTT,Other,Data Centers
+532,NVIDIA,NVDA,CoreWeave,,INVESTOR,equity,0.1,False,,,,,,,,REPORTED,cnbc.com,Nvidia,Semis & Systems,AI Clouds & Miners
+533,NVIDIA,NVDA,CoreWeave,,VENDOR_FINANCING,compute capacity / Master Services Agreement,0.32,True,,,,,2023-04-01,,ongoing MSA (entered Apr 2023),OFFICIAL,Nvidia S-1 filing edgar-online.com,Nvidia,Semis & Systems,AI Clouds & Miners
+534,NVIDIA,NVDA,CoreWeave,,LEASE,data-center / dedicated supercomputer,1.6,True,3500,H100 GPUs,False,,,,,REPORTED,Wikipedia,Nvidia,Semis & Systems,AI Clouds & Miners
+535,CoreWeave,,NVIDIA,NVDA,SECURED_DEBT,collateralized financing (GPUs as collateral),2.3,False,,,,,2023-08-03,,facility,REPORTED,Reuters,Nvidia,AI Clouds & Miners,Semis & Systems
+536,Lambda,,NVIDIA,NVDA,SECURED_DEBT,collateralized financing (GPUs as collateral),0.5,False,,,,,2024-04-04,,facility,REPORTED,Reuters,Nvidia,AI Clouds & Miners,Semis & Systems
+537,NVIDIA,NVDA,Lambda,,INVESTOR,equity participation,,False,480000000,USD total Series D,False,,2025-02-01,,Series D financing,REPORTED,TechCrunch,Nvidia,Semis & Systems,AI Clouds & Miners
+538,NVIDIA,NVDA,Meta,,CUSTOMER,GPU purchase (hyperscaler procurement),9.65,True,350000,H100 GPUs,False,,,,,ANALYST,Reuters citing CEO estimates,Nvidia,Semis & Systems,Hyperscalers
+539,NVIDIA,NVDA,Perplexity AI,,INVESTOR,equity,0.0736,False,,,,,2024-01-04,,funding round,REPORTED,Reuters,Nvidia,Semis & Systems,Other
+540,NVIDIA,NVDA,Poolside AI,,INVESTOR,equity and compute partnership,0.5,False,,,,,2024-10-01,,funding round,REPORTED,Wikipedia citing TechCrunch,Nvidia,Semis & Systems,Other
+541,NVIDIA,NVDA,Cohere,,INVESTOR,equity and strategic backing,,False,270000000,Series C,False,,2023-01-01,2024-12-31,multiple rounds,REPORTED,Reuters,Nvidia,Semis & Systems,Foundation Labs
+542,NVIDIA,NVDA,Mistral,,OTHER,content/model partnership and compute collaboration,,,,,,,2024-01-01,2025-12-31,2024–2025,REPORTED,"Wikipedia, LeMonde",Nvidia,Semis & Systems,Foundation Labs
+543,NVIDIA,NVDA,OpenAI,,INVESTOR,strategic investment & multi-year compute supply,100.0,False,10,GW NVIDIA systems,False,,2025-09-22,,"multi-year phased, first 1 GW 2H 2026",OFFICIAL,Nvidia press release,Nvidia,Semis & Systems,Hyperscalers
+544,Microsoft,,OpenAI,,INVESTOR,investment equity,,True,,,,,2023-01-23,,multi-year,OFFICIAL,openai.com press release,OpenAI,Hyperscalers,Hyperscalers
+545,Microsoft,,OpenAI,,CUSTOMER,compute capacity,,,,,,7,2023-01-01,2030-12-31,through 2030,OFFICIAL,blogs.microsoft.com,OpenAI,Hyperscalers,Hyperscalers
+546,Oracle,,OpenAI,,CUSTOMER,compute capacity,,,,,,,2024-06-11,,multi-year,OFFICIAL,oracle.com announcement,OpenAI,Hyperscalers,Hyperscalers
+547,Oracle,,OpenAI,,OTHER,data center development,,,4.5,GW,False,,2025-07-22,,multi-year,OFFICIAL,openai.com press release,OpenAI,Hyperscalers,Hyperscalers
+548,Oracle,,OpenAI,,LEASE,data center lease,,,,,,,,,,REPORTED,datacenterdynamics.com,OpenAI,Hyperscalers,Hyperscalers
+549,CoreWeave,,OpenAI,,CUSTOMER,compute capacity,11.9,False,,,,,,,,OFFICIAL,investors.coreweave.com,OpenAI,AI Clouds & Miners,Hyperscalers
+550,CoreWeave,,OpenAI,,CUSTOMER,compute capacity,22.4,True,,,,,,,,OFFICIAL,investors.coreweave.com,OpenAI,AI Clouds & Miners,Hyperscalers
+551,NVIDIA,NVDA,OpenAI,,CUSTOMER,GPU purchase,100.0,False,10,GW,False,,2025-09-22,,multi-year,OFFICIAL,openai.com press release,OpenAI,Semis & Systems,Hyperscalers
+552,AMD,,OpenAI,,CUSTOMER,GPU purchase,,,6,GW,False,,2025-10-06,,multi-year,OFFICIAL,openai.com press release,OpenAI,Semis & Systems,Hyperscalers
+553,Broadcom,,OpenAI,,CUSTOMER,GPU/accelerator purchase,,,10,GW,False,3,2026-01-01,2029-12-31,2026–2029 deployment window,OFFICIAL,openai.com press release,OpenAI,Semis & Systems,Hyperscalers
+554,JPMorgan,,OpenAI,,SECURED_DEBT,collateral loan,4.0,False,,,,,2024-10-03,,"revolving, undrawn at close",OFFICIAL,openai.com press release,OpenAI,Capital Providers,Hyperscalers
+555,Microsoft,,OpenAI,,REVENUE_SHARE,,,,,,,7,2023-01-01,2030-12-31,through 2030,OFFICIAL,blogs.microsoft.com,OpenAI,Hyperscalers,Hyperscalers
+556,Thrive Capital,,OpenAI,,INVESTOR,investment equity (secondary),,,,,,,,,,REPORTED,investing.com,OpenAI,Other,Hyperscalers
+557,Microsoft,,OpenAI,,INVESTOR,investment equity,6.6,False,,,,,,,,REPORTED,techcrunch.com,OpenAI,Hyperscalers,Hyperscalers
+558,Oracle,,OpenAI,,LEASE,data center lease,,,,,,,,,,REPORTED,cnbc.com,OpenAI,Hyperscalers,Hyperscalers
+559,The Associated Press,,OpenAI,,CONTENT_LICENSING,,,,,,,,2023-07-13,,multi-year,OFFICIAL,ap.org press release,OpenAI,Other,Hyperscalers
+560,Shutterstock,,OpenAI,,CONTENT_LICENSING,,,,,,,6,2023-07-11,2029-07-10,six years,OFFICIAL,shutterstock.com press release,OpenAI,Other,Hyperscalers
+561,Axel Springer,,OpenAI,,CONTENT_LICENSING,,,,,,,,2023-12-13,,multi-year,REPORTED,techcrunch.com,OpenAI,Other,Hyperscalers
+562,Le Monde,,OpenAI,,CONTENT_LICENSING,,,,,,,,2024-03-13,,multi-year,OFFICIAL,lemonde.fr,OpenAI,Other,Hyperscalers
+563,Prisa Media,,OpenAI,,CONTENT_LICENSING,,,,,,,,2024-03-13,,multi-year,OFFICIAL,openai.com blog,OpenAI,Other,Hyperscalers
+564,Financial Times,,OpenAI,,CONTENT_LICENSING,,,,,,,,2024-04-29,,multi-year,OFFICIAL,openai.com,OpenAI,Other,Hyperscalers
+565,Stack Overflow,,OpenAI,,CONTENT_LICENSING,API,,,,,,,2024-05-06,,multi-year,OFFICIAL,openai.com,OpenAI,Other,Hyperscalers
+566,Dotdash Meredith,,OpenAI,,CONTENT_LICENSING,,,,,,,,2024-05-07,,multi-year,REPORTED,reuters.com,OpenAI,Other,Hyperscalers
+567,Reddit,,OpenAI,,CONTENT_LICENSING,,,,,,,,2024-05-16,,multi-year,REPORTED,techcrunch.com,OpenAI,Other,Hyperscalers
+568,News Corp,,OpenAI,,CONTENT_LICENSING,,0.25,True,,,,5,2024-05-22,2029-05-21,multi-year,OFFICIAL,openai.com,OpenAI,Other,Hyperscalers
+569,Vox Media,,OpenAI,,CONTENT_LICENSING,product,,,,,,,2024-05-29,,multi-year,REPORTED,voxmedia.com,OpenAI,Other,Hyperscalers
+570,The Atlantic,,OpenAI,,CONTENT_LICENSING,product,,,,,,,2024-05-29,,multi-year,OFFICIAL,openai.com,OpenAI,Other,Hyperscalers
+571,TIME,,OpenAI,,CONTENT_LICENSING,,,,,,,,2024-06-27,,multi-year,REPORTED,time.com,OpenAI,Other,Hyperscalers
+572,Condé Nast,,OpenAI,,CONTENT_LICENSING,,,,,,,,2024-08-20,,multi-year,REPORTED,wired.com,OpenAI,Other,Hyperscalers
+573,Guardian Media Group,,OpenAI,,CONTENT_LICENSING,,,,,,,,2025-02-14,,multi-year,REPORTED,theguardian.com,OpenAI,Other,Hyperscalers
+574,Oracle,,NVIDIA,NVDA,CUSTOMER,compute capacity,,,,,,,,,,OFFICIAL,oracle.com 2023-03-21 press release,Oracle,Hyperscalers,Semis & Systems
+575,Oracle,,OpenAI,,CUSTOMER,compute capacity,,,,,,,,,,OFFICIAL,oracle.com 2024-06-11 press release,Oracle,Hyperscalers,Hyperscalers
+576,Oracle,,xAI,,CUSTOMER,compute capacity,,,,,,,,,,OFFICIAL,oracle.com 2025-06-17 press release,Oracle,Hyperscalers,Foundation Labs
+577,Oracle,,NVIDIA,NVDA,CUSTOMER,GPU purchase,40.0,True,400000,GB200 chips,True,15,2025-05-23,,15-year site lease,REPORTED,Reuters 2025-05-23,Oracle,Hyperscalers,Semis & Systems
+578,Oracle,,NVIDIA,NVDA,CUSTOMER,compute capacity,,,,,,,,,,OFFICIAL,nvidianews.nvidia.com 2024-03-18 press release,Oracle,Hyperscalers,Semis & Systems
+579,Oracle,,Microsoft,MSFT,LEASE,data center lease,,,,,,,,,,OFFICIAL,oracle.com 2023-09-14 press release,Oracle,Hyperscalers,Hyperscalers
+580,Oracle,,Google,,LEASE,data center lease,,,,,,,,,,REPORTED,prnewswire.com 2024-09-09,Oracle,Hyperscalers,Hyperscalers
+581,Oracle,,Amazon,AMZN,LEASE,data center lease,,,,,,,,,,OFFICIAL,aws.amazon.com 2025-07-08,Oracle,Hyperscalers,Hyperscalers
+582,Oracle,,Bloom Energy,,ENERGY_PPA,onsite fuel cell power,,,,,,,,,Onsite power within 90 days,OFFICIAL,bloomenergy.com 2025-07-24 press release,Oracle,Hyperscalers,Other
+583,Oracle,,NVIDIA,NVDA,CUSTOMER,compute capacity,,,,,,,,,,OFFICIAL,nvidianews.nvidia.com 2025-03-18 press release,Oracle,Hyperscalers,Semis & Systems
+584,Oracle,,Cohere,,INVESTOR,equity investment,0.27,False,,,,,,,,OFFICIAL,globenewswire.com 2023-06-08 press release,Oracle,Hyperscalers,Foundation Labs
+585,Pimco,,CoreWeave,,SECURED_DEBT,debt financing facility,2.3,False,,,,,2023-08-03,,Facility; specific lender participation not public,OFFICIAL,CoreWeave press release,Pimco,Capital Providers,AI Clouds & Miners
+586,Pimco,,Apto,,INVESTOR,seed funding,0.31,True,,,,,2023-09-12,,ongoing / platform-level multi-year,OFFICIAL,Apto official website,Pimco,Capital Providers,Other
+587,Pimco,,Apto,,INVESTOR,fundraise for PIMCO European Data Center Opportunity Fund,0.81,True,,,,,2024-03-26,,multi-year investment horizon,REPORTED,DataCenterDynamics report,Pimco,Capital Providers,Other
+588,Pimco,,Dromeus Capital Group,,INVESTOR,joint development / investment equity,0.31,False,,,,,2024-10-14,,Planned / pre-construction,OFFICIAL,Apto official website,Pimco,Capital Providers,Other
+589,Pimco,,Apto,,INVESTOR,data centre development / investment equity,3.4,True,300,MW,False,,2025-05-15,,Multi-year development / phased buildout,REPORTED,DataCenterDynamics report,Pimco,Capital Providers,Other
+590,Pimco,,Meta,META,SECURED_DEBT,debt financing (private credit),26.0,True,,,,,2025-08-07,2025-08-08,Debt issuance,REPORTED,Reuters news report,Pimco,Capital Providers,Hyperscalers
+591,Pimco,,Aligned Data Centers International,,SECURED_DEBT,loan participation / bond holdings,,,,,,,,2028-05-16,Debt securities held as of 2024-12-31,OFFICIAL,PIMCO SEC filings,Pimco,Capital Providers,Other
+592,QTS Realty,,Avangrid,,ENERGY_PPA,power,,,120,MWac,False,,,2026-12-31,projected commercial operations 2026,OFFICIAL,QTS press release 2024-12-02,QTS Realty,Data Centers,Other
+593,QTS Realty,,Meta,META,LEASE,Data center lease / campus development (hyperscale hosting),,,140,MW capacity,True,,,,,OFFICIAL,QTS press release 2024-12-02,QTS Realty,Data Centers,Hyperscalers
+594,QTS Realty,,Citigroup,C,SECURED_DEBT,CMBS refinancing,0.8,False,,,,,,,,REPORTED,DatacenterDynamics May 2023,QTS Realty,Data Centers,Other
+595,QTS Realty,,SNA NE LLC,,INVESTOR,real estate acquisition,0.10475,False,,,,,,,,REPORTED,DatacenterDynamics Sept 2024,QTS Realty,Data Centers,Other
+596,Bloom Energy Corporation,,Quanta Computer,,ENERGY_PPA,PPA power / on‑site power (microgrid),,,,,,,,,,OFFICIAL,bloomenergy.com press release,Quanta Computer,Other,Semis & Systems
+597,"LIPT NORTHPORT COURT, LLC",,Quanta Computer,,LEASE,Data center / factory lease,0.015561,True,119702,sq ft,False,6,,,77 months,OFFICIAL,Quanta SEC filing,Quanta Computer,Other,Semis & Systems
+598,PSB NORTHERN CALIFORNIA INDUSTRIAL PORTFOL,,Quanta Computer,,LEASE,Data center / factory lease,0.015561,True,119702,sq ft,False,6,,,77 months,OFFICIAL,Quanta SEC filing,Quanta Computer,Other,Semis & Systems
+599,Quanta Computer,,WhiteFiber,,CUSTOMER,GPU purchase / compute capacity supply (GB200 NVL72 rack with 72 GPUs),,,72,GB200 GPUs,False,,,,,OFFICIAL,qct.io press release,Quanta Computer,Semis & Systems,Other
+600,Quanta Computer,,Rigetti Computing,,INVESTOR,Equity & strategic collaboration (quantum infrastructure),0.035,True,,,,5,2025-02-27,,5 years,OFFICIAL,Rigetti SEC filing,Quanta Computer,Semis & Systems,Other
+601,Samsung Electronics,,AMD,,VENDOR_FINANCING,HBM3E memory supply for Instinct MI350 GPUs,,,,,,,,,Ongoing supply / multi-shipment,OFFICIAL,AMD blog 2025,Samsung Electronics,Semis & Systems,Semis & Systems
+602,Samsung Electronics,,Broadcom,,VENDOR_FINANCING,HBM3E 8-Hi prototype supply qualification,,,,,,,,,Qualification → potential supply,REPORTED,TrendForce 2025,Samsung Electronics,Semis & Systems,Semis & Systems
+603,Samsung Electronics,,Tesla,,CUSTOMER,foundry chip supply,16.5,False,,,,8,2025-07-01,2033-12-31,Multi-year; reported through 2033,REPORTED,Reuters 2025,Samsung Electronics,Semis & Systems,Hyperscalers
+604,Samsung Electronics,,Korea Southeast Power,,ENERGY_PPA,Dangjin Green Energy Hub project,1.7,True,300,MW BESS,False,,,,Project/operational target ~2032,REPORTED,Cushman & Wakefield 2024-2025,Samsung Electronics,Semis & Systems,Other
+605,Samsung Electronics,,OpenAI,,CUSTOMER,AI data centre projects and memory/infrastructure support talks,,,,,,,,,Talks / LOI / exploratory,REPORTED,Reuters 2025,Samsung Electronics,Semis & Systems,Hyperscalers
+606,Samsung Electronics,,FlaktGroup,,MNA,Strategic acquisition for cooling solutions,1.68,False,,,,,,,Acquisition closing expected within 2025,REPORTED,Reuters 2025,Samsung Electronics,Semis & Systems,Other
+607,Samsung Electronics,,Shinkawa,,VENDOR_FINANCING,Advanced packaging machine purchase,0.006,True,16,units,True,,,,Capex / equipment purchase,REPORTED,Digitimes 2023,Samsung Electronics,Semis & Systems,Other
+608,Coatue Tactical Solutions,,Scala Data Centers,,INVESTOR,structured financing,0.25,False,,,,,,,,OFFICIAL,scaladatacenters.com,Scala Data Centers,Other,Data Centers
+609,Investment Management Corporation of Ontario,,Scala Data Centers,,INVESTOR,structured financing,0.25,False,,,,,,,,OFFICIAL,imcoinvest.com,Scala Data Centers,Other,Data Centers
+610,Serena Energia,,Scala Data Centers,,ENERGY_PPA,renewable power & asset stake,,,393,MW,False,,2025-01-01,,Long-term / starts Jan 2025 (subject to conditions),OFFICIAL,scaladatacenters.com,Scala Data Centers,Other,Data Centers
+611,Bradesco BBI / UBS BB / Santander / Itaú BBA,,Scala Data Centers,,SECURED_DEBT,green debentures,0.25,False,,,,6,,,Six-year maturity,OFFICIAL,prnewswire.com,Scala Data Centers,Other,Data Centers
+612,Alianza Trust Renda Imobiliária,ALZR11,Scala Data Centers,,SALE_LEASEBACK,real estate,,,,,,,,,Leaseback terms not disclosed,REPORTED,thelatinamericanlawyer.com,Scala Data Centers,Other,Data Centers
+613,Alianza / GIC (via DC Brazil 1 / JV),,Scala Data Centers,,SALE_LEASEBACK,real estate,,,,,,,,,Leaseback terms not disclosed,REPORTED,mayerbrown.com,Scala Data Centers,Other,Data Centers
+614,MUFG / SMBC / BNP Paribas / Natixis,,Scala Data Centers,,SECURED_DEBT,project finance / international loan (Chile),0.254,False,,,,,,,Long-term project finance,OFFICIAL,prnewswire.com,Scala Data Centers,Other,Data Centers
+615,Banco Nacional de Desenvolvimento Econômico e Social,,Scala Data Centers,,VENDOR_FINANCING,credit line / equipment financing,,,,,,,,,Credit line (program financing),OFFICIAL,agenciadenoticias.bndes.gov.br,Scala Data Centers,Other,Data Centers
+616,Caterpillar Power Finance,,Scala Data Centers,,VENDOR_FINANCING,power financing,0.025,False,,,,,,,,OFFICIAL,datacenterdynamics.com,Scala Data Centers,Other,Data Centers
+617,Alianza Investimentos,,Scala Data Centers,,SALE_LEASEBACK,multiple assets,0.07,True,,,,,2024-01-01,2024-12-31,2024 (two SLBs),COMPANY,scaladatacenters.com,Scala Data Centers,Other,Data Centers
+618,SK hynix,,NVIDIA,,CUSTOMER,HBM3E memory,,,,,,1,2024-01-01,2024-12-31,Supply coverage for 2024 (fully booked) / majority of 2025 sold commitments,REPORTED,Reuters,SK hynix,Semis & Systems,Semis & Systems
+619,SK hynix,,State of Indiana / Purdue,,INVESTOR,HBM packaging & R&D facility investment,3.87,False,,,,5,2024-04-03,2028-12-31,Mass production targeted by 2028,OFFICIAL,SK hynix press release,SK hynix,Semis & Systems,Other
+620,SK hynix,,Intel,,MNA,NAND & SSD business acquisition,8.85,True,,,,4,2021-01-01,2025-03-28,"Two-phase close, final phase March 2025",OFFICIAL,SK hynix official announcements / techpowerup report,SK hynix,Semis & Systems,Semis & Systems
+621,SK hynix,,SK ecoplant,,ENERGY_PPA,Renewable energy supply,,,100,MW,False,,,,,REPORTED,Asiae news,SK hynix,Semis & Systems,Other
+622,SK hynix,,Penguin Solutions,,OTHER,AI data center collaboration,,,,,,,2025-01-09,,Ongoing collaboration starting Jan 2025,OFFICIAL,SK Telecom press release,SK hynix,Semis & Systems,Other
+623,SK hynix,,SK REITs,,SECURED_DEBT,Sale-leaseback and secured loan,0.86,True,,,,3,2023-09-27,2026-09-27,3 years secured loan maturity,REPORTED,Asiae news,SK hynix,Semis & Systems,Other
+624,SK hynix,,Rebellions / Sapeon,,INVESTOR,Strategic investment in AI chip makers,,,,,,,2023-08-18,,Ongoing investment and merger activity during 2023-2024,REPORTED,Reuters / PR News Asia,SK hynix,Semis & Systems,Other
+625,SoftBank,,OpenAI,,INVESTOR,Joint venture,100.0,True,,,,4,2025-01-21,2029-01-21,4 years (project window),OFFICIAL,group.softbank press release,SoftBank,Capital Providers,Hyperscalers
+626,SoftBank,,Sharp,,LEASE,Data center,,,750000,m2 floor area,False,,2024-10-01,2025-12-31,Target start full operations 2025; construction start ~autumn 2024,OFFICIAL,softbank.jp press release,SoftBank,Capital Providers,Other
+627,SoftBank,,Google,GOOGL,ENERGY_PPA,Renewable power,,,921,MW,True,,2022-11-01,2040-11-01,Long-term multi-year PPA; projects commissioned Oct 2024,REPORTED,datacenterdynamics.com,SoftBank,Capital Providers,Hyperscalers
+628,SoftBank,,Ampere Computing Holdings LLC,,INVESTOR,Acquisition,6.5,False,,,,,2025-07-01,2025-12-31,Closing expected latter half 2025,OFFICIAL,group.softbank press release,SoftBank,Capital Providers,Other
+629,SoftBank,,Graphcore,,INVESTOR,Acquisition,,,,,,,,,,REPORTED,reuters.com,SoftBank,Capital Providers,Other
+630,SoftBank,,Foxconn,,MNA,Data-center site acquisition and manufacturing JV,0.375,True,6200000,square feet,False,,2025-08-01,,Purchase closed Aug 2025; long-term occupancy/JV,REPORTED,reuters.com,SoftBank,Capital Providers,Semis & Systems
+631,SoftBank,,Oracle,,CUSTOMER,Compute capacity / Data-center development,30.0,True,4.5,GW,False,,2025-07-22,,Multi-year development/lease terms,REPORTED,Financial Times via openai.com,SoftBank,Capital Providers,Hyperscalers
+632,SoftBank,,SB Energy,,OTHER,Power provisioning for Stargate site,,,,multi-GW scale planned,True,,2025-09-24,,"Planned, buildout expected ~18 months",OFFICIAL,group.softbank press release,SoftBank,Capital Providers,Other
+633,Southern Company,,Southern Power,,LEASE,affiliate power agreements,0.000894,False,,,,,,,capacity payments 2024–2028 disclosed; thereafter payments continuing,OFFICIAL,Georgia Power / Southern Company SEC filings 2023–2024,Southern Company,Power & Energy,Other
+634,Southern Company,,Edged Energy,,CUSTOMER,microgrid power / critical load capacity,,,152,MW critical load capacity,True,6,2025-01-13,2031-01-13,six-year alliance,OFFICIAL,PowerSecure press releases Jan & June 2025,Southern Company,Power & Energy,Other
+635,Southern Company,,Georgia Public Service Commission,,OTHER,utility generation capacity approval for data-center demand,,,1.4,GW new capacity,True,,,,,REPORTED,DatacenterDynamics report Apr 2024,Southern Company,Power & Energy,Other
+636,Southern Company,,Mississippi Power,,OTHER,PPA IRP certification,,,,,,,,,,OFFICIAL,Georgia Power IRP filings 2023–2024,Southern Company,Power & Energy,Other
+637,Southern Company,,Santa Rosa Energy Center LLC,,OTHER,PPA IRP certification for existing combined-cycle plant,,,,,,,,,,OFFICIAL,Georgia Power IRP filings 2023–2024,Southern Company,Power & Energy,Other
+638,Southern Company,,EDF Renewables,,MNA,solar asset acquisition,,,0.2,GW solar project MW (200 MW),False,20,2023-09-21,2043-09-21,20-year virtual power purchase agreement with Thermo Fisher Scientific,OFFICIAL,"Southern Company press release Sep 21, 2023",Southern Company,Power & Energy,Other
+639,Siliconware Precision Industries (SPIL),,NVIDIA,NVDA,OTHER,Manufacturing / Packaging & testing partnership,,,,,,,,,,REPORTED,Reuters 2025-04-14,SPIL,Other,Semis & Systems
+640,Siliconware Precision Industries (SPIL),,NVIDIA,NVDA,OTHER,Facility commissioning / Capacity expansion (advanced packaging),,,,,,,,,,OFFICIAL,SPIL corporate milestone 2025-01-16,SPIL,Other,Semis & Systems
+641,Siliconware Precision Industries (SPIL),,TSMC,,CUSTOMER,Chip-on-Wafer (CoW) packaging order / Service contract,,,,,,1,2024-08-01,2025-09-30,Tool-in Q2 2025; ramp Q3 2025,REPORTED,Trendforce 2024-08-06,SPIL,Other,Semis & Systems
+642,Siliconware Precision Industries (SPIL),,Newmax Technology,,MNA,Real estate acquisition (manufacturing facility purchase),,,,,,,2024-12-01,,Permanent acquisition,OFFICIAL,SPIL corporate milestone 2024-12,SPIL,Other,Other
+643,Siliconware Precision Industries (SPIL),,Ming Hwei Energy,,MNA,Real estate acquisition (manufacturing facility purchase),,,,,,,2024-10-01,,Permanent acquisition,OFFICIAL,SPIL corporate milestone 2024-10,SPIL,Other,Other
+644,Siliconware Precision Industries (SPIL),,Central Taiwan Science Park,,LEASE,Land lease (capacity expansion),,,,,,,2024-01-01,,Lease (land),OFFICIAL,SPIL corporate milestone 2024-01,SPIL,Other,Other
+645,Siliconware Precision Industries (SPIL),,Siliconware Precision Malaysia,,INVESTOR,Subsidiary formation (equity),,,,,,,,,,OFFICIAL,SPIL corporate milestone 2023-09,SPIL,Other,Other
+646,Supermicro,,xAI,,CUSTOMER,Compute capacity,,,,,,,,,,REPORTED,Reuters 2024-06-19,Supermicro,Semis & Systems,Foundation Labs
+647,Supermicro,,Digi Power X,DGXX,CUSTOMER,GPU purchase,,,,,,,,,,REPORTED,Benzinga 2025-07-17,Supermicro,Semis & Systems,Other
+648,Supermicro,,DataVolt,,CUSTOMER,Compute capacity,20.0,False,,,,,,,Multi-year / subject to definitive agreements,OFFICIAL,Supermicro press release 2025-05-16,Supermicro,Semis & Systems,Other
+649,Supermicro,,Lambda,,CUSTOMER,Compute capacity,,,,,,,,,,OFFICIAL,Supermicro press release 2025-08-25,Supermicro,Semis & Systems,AI Clouds & Miners
+650,Supermicro,,VCI Global,,CUSTOMER,GPU purchase,0.025,True,64,Supermicro servers,False,,,,,REPORTED,theoutpost.ai 2025-01-27,Supermicro,Semis & Systems,Other
+651,Supermicro,,CoreWeave,,CUSTOMER,Purchase orders/backlog,2.6,True,,,,,,,,ANALYST,Hindenburg citing Bloomberg Intelligence 2024-08-27,Supermicro,Semis & Systems,AI Clouds & Miners
+652,Aware Super,,Switch,,INVESTOR,equity investment,0.5,True,,,,,,,Permanent equity (no term),REPORTED,DigitalBridge press release + Data Center Dynamics,Switch,Other,Data Centers
+653,Switch,,Oklo,,ENERGY_PPA,power capacity,,,12,GW,False,20,2024-12-18,2044-12-18,Through 2044,OFFICIAL,Switch official press release,Switch,Data Centers,Other
+654,CoreWeave,,Switch,,CUSTOMER,AI GPU deployment,,,,NVIDIA GB300 NVL72 racks,False,,,,Operational / ongoing,OFFICIAL,CoreWeave press release + industry reports,Switch,AI Clouds & Miners,Data Centers
+655,Switch,,JPMorgan,,SECURED_DEBT,credit facility,10.0,False,,,,,,,,REPORTED,Data Center Dynamics reporting,Switch,Data Centers,Capital Providers
+656,TSMC,TSMC,ARK Power,,ENERGY_PPA,renewable joint procurement,,,20000,GWh,False,20,2023-04-21,2043-04-21,20 years,OFFICIAL,TSMC press release,Taiwan Semiconductor Manufacturing,Semis & Systems,Other
+657,U.S. Department of Commerce,,TSMC,TSMC,VENDOR_FINANCING,government subsidy + low-cost loans,11.6,True,,,,5,2024-11-15,2029-11-15,5-year buyback restriction,REPORTED,Reuters,Taiwan Semiconductor Manufacturing,Other,Semis & Systems
+658,TSMC,TSMC,Amkor Technology,,CUSTOMER,packaging & test services,,,,,,,,,,REPORTED,Taipei Times,Taiwan Semiconductor Manufacturing,Semis & Systems,Semis & Systems
+659,TSMC,TSMC,Microsoft,MSFT,CUSTOMER,wafer manufacturing (foundry),,,,,,,,,,COMPANY,Microsoft blog and announcement,Taiwan Semiconductor Manufacturing,Semis & Systems,Hyperscalers
+660,TSMC,TSMC,Meta,META,CUSTOMER,wafer manufacturing (foundry),,,,,,,,,,REPORTED,Tweaktown,Taiwan Semiconductor Manufacturing,Semis & Systems,Hyperscalers
+661,TSMC,TSMC,Tesla,TSLA,CUSTOMER,wafer manufacturing (foundry),,,,,,,,,,REPORTED,Wikipedia,Taiwan Semiconductor Manufacturing,Semis & Systems,Hyperscalers
+662,TSMC,TSMC,European Semiconductor Manufacturing Company,,INVESTOR,JV European fab,10.0,True,,,,3,2024-08-20,2027-08-20,"multi-year capex, production targeted ~2027",REPORTED,Reuters,Taiwan Semiconductor Manufacturing,Semis & Systems,Other
+663,TSMC,TSMC,Japan Advanced Semiconductor Manufacturing,,INVESTOR,JV Japan fab expansion,20.0,False,,,,4,2024-02-06,2028-02-06,"multi-year, Phase2 production targeted by end of 2027",OFFICIAL,TSMC press release,Taiwan Semiconductor Manufacturing,Semis & Systems,Other
+664,TSMC,TSMC,Ørsted,,ENERGY_PPA,offshore wind corporate PPA,,,920,MW,False,20,2020-01-01,2040-01-01,20 years fixed-price CPPA,REPORTED,Reuters,Taiwan Semiconductor Manufacturing,Semis & Systems,Other
+665,TSMC,TSMC,NVIDIA,NVDA,CUSTOMER,GPU manufacturing (foundry),,,,,,,,,,REPORTED,"Wikipedia, cross-ref",Taiwan Semiconductor Manufacturing,Semis & Systems,Semis & Systems
+666,Tesla,,NVIDIA,NVDA,CUSTOMER,H100 GPUs,0.5,False,12000,H100 GPUs,False,,,,,REPORTED,Reuters,Tesla,Hyperscalers,Semis & Systems
+667,Tesla,,NVIDIA,NVDA,CUSTOMER,H100 GPUs,,,85000,H100 GPUs,True,,2024-04-23,2024-12-31,by the end of this year,REPORTED,Teslarati,Tesla,Hyperscalers,Semis & Systems
+668,Tesla,,Samsung Electronics,,FOUNDRY_LTSA,AI6 chips,16.5,False,,,,8,2025-07-28,2033-07-28,8 years (2025–2033),REPORTED,Data Center Dynamics,Tesla,Hyperscalers,Semis & Systems
+669,Tesla,,NTT Global Data Centers,,LEASE,data center capacity (Sacramento CA3),,,,,,,,,,REPORTED,MarkLines,Tesla,Hyperscalers,Other
+670,Tesla,,Baidu,,CONTENT_LICENSING,mapping license and lane-level navigation,,,,,,,,,,REPORTED,Reuters,Tesla,Hyperscalers,Other
+671,Tesla,,State of New York (Gigafactory New York),,FOUNDRY_LTSA,Dojo supercomputer build,0.5,False,,,,,,,,REPORTED,TechCrunch,Tesla,Hyperscalers,Other
+672,Together AI,,Hypertec Cloud,,CUSTOMER,GB200 NVL72 GPUs,,,36000,GB200 NVL72 GPUs,False,,2025-01-01,,deployment starting Q1 2025,OFFICIAL,prnewswire.com press release,Together AI,AI Clouds & Miners,Other
+673,Together AI,,Applied Digital,,CUSTOMER,H100 GPU clusters,0.075,False,,,,,,,,OFFICIAL,globenewswire.com press release,Together AI,AI Clouds & Miners,AI Clouds & Miners
+674,Together AI,,General Catalyst,,INVESTOR,Series B financing,0.305,False,,,,,,,,OFFICIAL,together.ai company blog,Together AI,AI Clouds & Miners,Other
+675,Together AI,,Salesforce Ventures,,INVESTOR,Series A2 financing,0.106,False,,,,,,,,OFFICIAL,together.ai company blog,Together AI,AI Clouds & Miners,Other
+676,Together AI,,Kleiner Perkins,,INVESTOR,Series A financing,0.1025,False,,,,,,,,REPORTED,theaiinsider.tech news article,Together AI,AI Clouds & Miners,Other
+677,Together AI,,Vultr,,CUSTOMER,cloud GPUs compute capacity,,,,,,,,,,COMPANY,blogs.vultr.com blog,Together AI,AI Clouds & Miners,Other
+678,Together AI,,Crusoe,,CUSTOMER,lower-carbon compute resources,,,,,,,,,,COMPANY,together.ai company blog,Together AI,AI Clouds & Miners,AI Clouds & Miners
+679,Together AI,,NVIDIA,,VENDOR_FINANCING,Blackwell GPU strategic collaboration,,,36000,NVIDIA HGX B200 / GB200 NVL72 GPUs,False,,2025-01-01,,deploying in 2025,COMPANY,together.ai company blog,Together AI,AI Clouds & Miners,Semis & Systems
+680,Together AI,,Lambda,,CUSTOMER,compute capacity,,,,,,,,,,COMPANY,together.ai company blog,Together AI,AI Clouds & Miners,AI Clouds & Miners
+681,Vantage Data Centers,,Barclays,,SECURED_DEBT,EMEA ABS collateral loan,0.78,False,,,,5,2024-06-04,2029-06-04,5-year repayment,OFFICIAL,siliconcanals.com press release,Vantage Data Centers,Data Centers,Other
+682,Vantage Data Centers,,Barclays,,SECURED_DEBT,"Euro-based ABS collateral loan, Green Bond",0.72,False,,,,5,2025-06-09,2030-06-09,5-year repayment,OFFICIAL,vantage-dc.com press release,Vantage Data Centers,Data Centers,Other
+683,Vantage Data Centers,,DigitalBridge,,INVESTOR,Equity investment for cloud & AI capacity,9.2,False,,,,,2024-06-13,,permanent capital,OFFICIAL,DigitalBridge press release,Vantage Data Centers,Data Centers,Other
+684,Vantage Data Centers,,GIC,,INVESTOR,Strategic equity investment in EMEA platform,1.52,False,,,,,2024-12-16,2025-03-31,expected to finalize Q1 2025,OFFICIAL,vantage-dc.com press release,Vantage Data Centers,Data Centers,Other
+685,Vantage Data Centers,,Wells Fargo Securities,,SECURED_DEBT,Green loan North America platform expansion,3.0,False,,,,,,,,OFFICIAL,financialcontent.com press release,Vantage Data Centers,Data Centers,Other
+686,Vantage Data Centers,,Wells Fargo Securities,,SECURED_DEBT,Incremental green loan financings North America expansion,5.0,False,,,,,,,,OFFICIAL,vantage-dc.com press release,Vantage Data Centers,Data Centers,Other
+687,Vantage Data Centers,,Credit Guarantee & Investment Facility,,SECURED_DEBT,"APAC bond issuance, guaranteed by CGIF",0.114,True,,,,5,2024-12-12,2029-12-12,5-year (SGD),OFFICIAL,vantage-dc.com press release,Vantage Data Centers,Data Centers,Other
+688,Vantage Data Centers,,VoltaGrid,,ENERGY_PPA,Power generation partnership for >1 GW capacity,,,1,GW,False,,2025-02-11,,active partnership,OFFICIAL,voltagrid.com press release,Vantage Data Centers,Data Centers,Other
+689,Vantage Data Centers,,DigitalBridge,,OTHER,Compute capacity mega-campus development AI,25.0,False,1.4,GW,False,,2025-08-19,,"multi-year development, first building H2 2026",REPORTED,Reuters 2025-08-19,Vantage Data Centers,Data Centers,Other
+690,Vistra,,Amazon,,ENERGY_PPA,power purchase agreement,,,200,MW,False,,,,Long-term,OFFICIAL,Vistra Q1 2025 results press release dated 2025-05-07,Vistra,Power & Energy,Hyperscalers
+691,Vistra,,Microsoft,,ENERGY_PPA,power purchase agreement,,,405,MW,False,,,,Long-term,OFFICIAL,Vistra Q1 2025 results press release dated 2025-05-07,Vistra,Power & Energy,Hyperscalers
+692,Vistra,,Energy Harbor,,MNA,acquisition,3.43,False,,,,,,,,OFFICIAL,Vistra press release 2024-03-01,Vistra,Power & Energy,Other
+693,Vistra,,Nuveen Asset Management,,REPURCHASE,Vistra Vision minority interest,3.25,True,,,,,2024-09-18,2024-12-31,Payment over installments,REPORTED,Reuters 2024-09-18,Vistra,Power & Energy,Other
+694,Vistra,,Lotus Infrastructure Partners,,MNA,asset purchase (generation fleet),1.9,False,,,,,,,,REPORTED,TipRanks news 2025-05-15,Vistra,Power & Energy,Other
+695,Vistra,,Vistra shareholders,,REPURCHASE,share buyback program,5.2,True,,,,,,2026-12-31,Ongoing buyback program through 2026,OFFICIAL,Vistra Q1 2025 results press release dated 2025-05-07,Vistra,Power & Energy,Other
+696,Vistra,,Cipher,,LEASE,data center lease (land & interconnection/substation),,,,,,5,2022-11-22,,Initial 5-year interconnection facilities term with renewals for land leases,OFFICIAL,Counterparty SEC filings 2025 10-Q,Vistra,Power & Energy,Other
+697,Voltage Park,,NVIDIA,NVDA,CUSTOMER,H100 GPUs,0.5,True,24000,H100 GPUs,False,,,,,REPORTED,TechCrunch 2023-10-31,Voltage Park,AI Clouds & Miners,Semis & Systems
+698,Voltage Park,,Centeris Data Centers,,LEASE,data center,,,10,MW,False,,,,,OFFICIAL,Choose Tacoma Pierce 2024-01-17,Voltage Park,AI Clouds & Miners,Other
+699,Voltage Park,,Imbue,,CUSTOMER,compute capacity H100 cluster,,,,,,,,,,REPORTED,TechCrunch 2023-10-31,Voltage Park,AI Clouds & Miners,Other
+700,Voltage Park,,Character.ai,,CUSTOMER,compute capacity H100 cluster,,,,,,,,,,REPORTED,TechCrunch 2023-10-31,Voltage Park,AI Clouds & Miners,Other
+701,Voltage Park,,Atomic AI,,CUSTOMER,compute capacity,,,,,,,,,,OFFICIAL,Choose Tacoma Pierce 2024-01-17,Voltage Park,AI Clouds & Miners,Other
+702,Voltage Park,,TensorDock,,MNA,GPU cloud marketplace acquisition,,,,,,,,,,OFFICIAL,Voltage Park press release 2025-03-26,Voltage Park,AI Clouds & Miners,Other
+703,Voltage Park,,Penguin Solutions,,OTHER,managed services for NVIDIA clusters,,,,,,,,,,OFFICIAL,Nasdaq press release 2024-07-11,Voltage Park,AI Clouds & Miners,Other
+704,Voltage Park,,VAST Data,,OTHER,storage/software deployment,,,,,,,,,,OFFICIAL,VAST Data press release 2025-06-17,Voltage Park,AI Clouds & Miners,Other
+705,Wistron,,NVIDIA,NVDA,FOUNDRY_LTSA,compute capacity / manufacturing partnership,,,,,,1,2025-01-01,2025-12-31,US plants expected to be ready next year,REPORTED,Reuters 2025-05-16,Wistron,Semis & Systems,Semis & Systems
+706,Wistron,,Trammell Crow,,MNA,data center / factory purchase (land & facility),0.58,False,,,,2,2025-08-01,2027-08-01,Improvements / equipment investments to be completed by 2026–2027,REPORTED,Houston Chronicle 2025-08,Wistron,Semis & Systems,Other
+707,Wistron,,Hillwood,,MNA,data center / factory purchase (land & facility),0.181,False,,,,2,2025-08-01,2027-08-01,Improvements / equipment investments to be completed by 2026–2027,REPORTED,Houston Chronicle 2025-08,Wistron,Semis & Systems,Other
+708,Wistron,,Wistron InfoComm USA Corporation,,INVESTOR,capital injection,0.455,False,,,,3,2025-01-01,2027-12-31,2025–2027 expansion plans,OFFICIAL,Wistron press release 2025-05-06,Wistron,Semis & Systems,Other
+709,Wistron,,Lan Fa Textile Co.,,MNA,data center / factory acquisition,,,,,,1,2025-02-01,,Reorganization/production expected to begin next year,REPORTED,Taipei Times 2025-06-19,Wistron,Semis & Systems,Other
+710,Wistron,,WiSuccess Asset Management Corporation,,INVESTOR,capital injection,,False,1.7,billion NT$,False,,,,,OFFICIAL,Wistron press release 2025-05-06,Wistron,Semis & Systems,Other
+711,Wistron,,Wistron InfoComm Mexico S.A. de C.V.,,LEASE,manufacturing / warehouse,0.023,False,,,,5,2025-01-01,2030-01-01,Lease term 2025–2030,OFFICIAL,Wistron press release 2025-05-06,Wistron,Semis & Systems,Other
+712,Wistron,,SMS Infocomm Corporation,,LEASE,after-sales / support facility,0.01288,False,,,,5,2025-01-01,2030-01-01,Lease term 2025–2030,OFFICIAL,Wistron press release 2025-05-06,Wistron,Semis & Systems,Other
+713,Wistron,,Wistron Ventures Corporation,,INVESTOR,capital budget for new VC arm,,,3.5,billion NT$,False,,,,,OFFICIAL,Wistron press release 2025-05-06,Wistron,Semis & Systems,Other
+714,Wistron,,Hsinchu County / Zhubei AI Park,,FOUNDRY_LTSA,facility investment / compute capacity (AI park inauguration),,,3.914,billion NT$,False,2,2025-06-19,,Ramp to full capacity within 1–2 years,REPORTED,FTV News 2025-06-19,Wistron,Semis & Systems,Other
+715,Wiwynn,,Lambda,,INVESTOR,equity strategic investor,0.48,False,,,,,,,Series D,OFFICIAL,businesswire 2025-02-19 press release,Wiwynn,Semis & Systems,AI Clouds & Miners
+716,Wiwynn,,NVIDIA,NVDA,CUSTOMER,GPU / systems partnership Blackwell/GB-series AI systems,,,,,,,,,Ongoing,OFFICIAL,NVIDIA press release 2024-06-02,Wiwynn,Semis & Systems,Semis & Systems
+717,Wiwynn,,YTL Group,,CUSTOMER,NVIDIA GB200/GB300 AI server rack systems,,,,,,,2024-11-01,,Multi-rack / project deliveries,REPORTED,trendforce 2024-11,Wiwynn,Semis & Systems,Other
+718,Wiwynn,,X,,VENDOR_FINANCING,unpaid receivable,0.061,True,,,,,,,,REPORTED,tomshardware 2024-08-22 media report,Wiwynn,Semis & Systems,Other
+719,Wiwynn,,Wiwynn US,,INVESTOR,capital injection,0.3,False,,,,,2025-03-01,2025-04-30,Mar–Apr 2025,REPORTED,taipeitimes 2025-04-30 report,Wiwynn,Semis & Systems,Other
+720,Wiwynn,,Wistron,,CUSTOMER,product co-development / system supply liquid-cooled rack AI systems,,,,,,,2025-05-19,,Announced / showcased,COMPANY,aijourn 2025-05-19,Wiwynn,Semis & Systems,Semis & Systems
+721,Dell Technologies,,xAI,,VENDOR_FINANCING,server racks / hardware supply,,,,,,,,,,REPORTED,Reuters,xAI,Semis & Systems,Foundation Labs
+722,Tennessee Valley Authority,,xAI,,ENERGY_PPA,power supply,,,150,MW,True,,,,,REPORTED,SEL&C press release,xAI,Other,Foundation Labs
+723,CTC Property,,xAI,,ANCHOR_TENANT,data center site purchase,0.08,False,1000000,sq ft,True,,2025-03-10,,site acquisition,REPORTED,Data Center Dynamics,xAI,Other,Foundation Labs
+724,Develop Fulton,,xAI,,VENDOR_FINANCING,municipal bond financing for hardware,0.7,False,,,,,,,,REPORTED,Business Insider,xAI,Other,Foundation Labs
+725,Morgan Stanley,,xAI,,SECURED_DEBT,secured notes & term loans,5.0,False,,,,,,,,REPORTED,Reuters,xAI,Capital Providers,Foundation Labs
+726,Strategic equity investors,,xAI,,INVESTOR,strategic equity investment,5.0,False,,,,,,,,REPORTED,Reuters,xAI,Other,Foundation Labs
+727,xAI,,X,,MNA,all-stock acquisition,33.0,False,,,,,,,,REPORTED,Reuters,xAI,Foundation Labs,Other
+728,U.S. Department of Defense,,xAI,,REVENUE_SHARE,government contract,0.2,False,,,,,,,,REPORTED,Reuters,xAI,Other,Foundation Labs
+729,xAI,,Hotshot,,MNA,content licensing / acquisition,,,,,,,,,,REPORTED,TechCrunch,xAI,Foundation Labs,Other
+730,xAI,,NVIDIA,,CUSTOMER,H100 GPUs reallocation,0.5,True,12000,H100 GPUs,True,,2024-06-04,,reported allocation in 2024,REPORTED,CNBC,xAI,Foundation Labs,Semis & Systems
+731,xAI,,Dell Technologies,,CUSTOMER,AI server backlog,4.1,True,,,,,,,,REPORTED,CNBC,xAI,Foundation Labs,Semis & Systems
