@@ -11,6 +11,9 @@
     --text-secondary: #6e6e73;
     --accent-color: #0071e3;
     --accent-hover: #0077ed;
+    --navy-blue: #001f3f;
+    --navy-blue-light: #003d6b;
+    --navy-blue-dark: #001528;
     --border-color: #d2d2d7;
     --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.04);
     --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.08);
@@ -25,10 +28,21 @@ body.dark-theme {
     --bg-card: #1d1d1f;
     --text-primary: #f5f5f7;
     --text-secondary: #a1a1a6;
+    --navy-blue: #4a9eff;
+    --navy-blue-light: #6bb3ff;
+    --navy-blue-dark: #2d7acc;
     --border-color: #424245;
     --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.3);
     --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.4);
     --shadow-lg: 0 8px 32px rgba(0, 0, 0, 0.5);
+}
+
+body.dark-theme .header {
+    background: linear-gradient(135deg, #001528 0%, #001f3f 100%);
+}
+
+body.dark-theme .contact-card {
+    background: linear-gradient(135deg, #001528 0%, #001f3f 100%);
 }
 
 /* Reset & Base Styles */
@@ -56,11 +70,25 @@ body {
 
 /* Header Styles */
 .header {
-    background-color: var(--bg-card);
+    background: linear-gradient(135deg, var(--navy-blue) 0%, var(--navy-blue-light) 100%);
     padding: 48px 0;
-    box-shadow: var(--shadow-sm);
+    box-shadow: var(--shadow-md);
     position: relative;
     transition: var(--transition-smooth);
+}
+
+.header .name,
+.header .title,
+.header .location {
+    color: #ffffff;
+}
+
+.header .title {
+    opacity: 0.95;
+}
+
+.header .location {
+    opacity: 0.85;
 }
 
 .profile-section {
@@ -114,8 +142,8 @@ body {
     position: absolute;
     top: 24px;
     right: 24px;
-    background: var(--bg-secondary);
-    border: 1px solid var(--border-color);
+    background: rgba(255, 255, 255, 0.2);
+    border: 2px solid rgba(255, 255, 255, 0.4);
     border-radius: 50%;
     width: 48px;
     height: 48px;
@@ -125,9 +153,12 @@ body {
     justify-content: center;
     font-size: 1.5rem;
     transition: var(--transition-smooth);
+    backdrop-filter: blur(10px);
 }
 
 .theme-toggle:hover {
+    background: rgba(255, 255, 255, 0.3);
+    border-color: rgba(255, 255, 255, 0.6);
     transform: scale(1.1) rotate(15deg);
     box-shadow: var(--shadow-md);
 }
@@ -161,7 +192,7 @@ main {
     font-size: 2rem;
     font-weight: 700;
     margin-bottom: 24px;
-    color: var(--text-primary);
+    color: var(--navy-blue);
     letter-spacing: -0.5px;
 }
 
@@ -173,7 +204,7 @@ main {
 }
 
 .about-text strong {
-    color: var(--accent-color);
+    color: var(--navy-blue);
     font-weight: 600;
 }
 
@@ -192,11 +223,11 @@ main {
 .timeline-marker {
     width: 16px;
     height: 16px;
-    background: var(--accent-color);
+    background: var(--navy-blue);
     border-radius: 50%;
     margin-top: 6px;
     flex-shrink: 0;
-    box-shadow: 0 0 0 4px var(--bg-card), 0 0 0 6px var(--accent-color);
+    box-shadow: 0 0 0 4px var(--bg-card), 0 0 0 6px var(--navy-blue);
 }
 
 .timeline-content h3 {
@@ -206,7 +237,7 @@ main {
 }
 
 .subtitle {
-    color: var(--accent-color);
+    color: var(--navy-blue);
     font-weight: 600;
     margin-bottom: 4px;
 }
@@ -239,7 +270,7 @@ main {
     content: "▸";
     position: absolute;
     left: 0;
-    color: var(--accent-color);
+    color: var(--navy-blue);
     font-weight: bold;
     font-size: 1.2rem;
 }
@@ -262,8 +293,9 @@ main {
 
 .skill-item:hover {
     transform: translateY(-4px);
-    border-color: var(--accent-color);
+    border-color: var(--navy-blue);
     background: var(--bg-card);
+    box-shadow: 0 4px 12px rgba(0, 31, 63, 0.15);
 }
 
 .skill-icon {
@@ -299,9 +331,9 @@ main {
 }
 
 .interest-tag:hover {
-    background: var(--accent-color);
+    background: var(--navy-blue);
     color: white;
-    border-color: var(--accent-color);
+    border-color: var(--navy-blue);
     transform: scale(1.05);
 }
 
@@ -315,7 +347,7 @@ main {
     margin-bottom: 12px;
     background: var(--bg-secondary);
     border-radius: 12px;
-    border-left: 4px solid var(--accent-color);
+    border-left: 4px solid var(--navy-blue);
     font-size: 1.05rem;
     transition: var(--transition-smooth);
 }
@@ -328,7 +360,7 @@ main {
 /* Contact Section */
 .contact-card {
     text-align: center;
-    background: linear-gradient(135deg, var(--accent-color), #0077ed);
+    background: linear-gradient(135deg, var(--navy-blue) 0%, var(--navy-blue-light) 100%);
     color: white;
 }
 
@@ -355,7 +387,7 @@ main {
     align-items: center;
     gap: 8px;
     background: white;
-    color: var(--accent-color);
+    color: var(--navy-blue);
     padding: 16px 32px;
     border-radius: 24px;
     text-decoration: none;
@@ -382,7 +414,7 @@ main {
 
 .contact-button-secondary:hover {
     background: white;
-    color: var(--accent-color);
+    color: var(--navy-blue);
 }
 
 /* Footer */
